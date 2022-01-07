@@ -940,6 +940,11 @@ video {
           flex-grow: 1;
 }
 
+.box222__text {
+  text-align: center;
+  font-size: 1rem;
+}
+
 .box333__text--pic {
   position: absolute;
   left: 0;

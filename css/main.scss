@@ -959,6 +959,11 @@ video {
   padding: 0;
   color: blue;
   flex-grow: 1;
+
+  &__text {
+    text-align: center;
+    font-size: 1rem;
+  }
 }
 
 .box333__text--pic {
