@@ -1,285 +1,263 @@
 window.onload = function () {
-	init();
+  init();
 };
 
-
 function init() {
+  $(".headline").click(function () {
+    window.location = $(this).find("a").attr("href");
+    return false;
+  });
 
+  getTime();
+  TweenMax.to("#timeStamp", 3, {
+    rotationX: 360,
+  });
 
+  //todo  10920.0020 		ken burns effect attempt
 
-		getTime();
-		TweenMax.to('#timeStamp', 3, {
-			rotationX: 360
-		});
+  (function () {
+    // we set the 'fx' class on the first image when the page loads
+    document
+      .getElementById("slideshow")
+      .getElementsByTagName("img")[0].className = "fx";
+    // this calls the kenBurns function every 4 seconds
+    // you can increase or decrease this value to get different effects
+    window.setInterval(kenBurns, 6000);
 
+    // the third variable is to keep track of where we are in the loop
+    // if it is set to 1 (instead of 0) it is because the first image is styled when the page loads
+    var images = document
+        .getElementById("slideshow")
+        .getElementsByTagName("img"),
+      numberOfImages = images.length,
+      i = 1;
 
-		//todo  10920.0020 		ken burns effect attempt
+    function kenBurns() {
+      if (i == numberOfImages) {
+        i = 0;
+      }
+      images[i].className = "fx";
 
-		(function () {
+      // we can't remove the class from the previous element or we'd get a bouncing effect so we clean up the one before last
+      // (there must be a smarter way to do this though)
+      if (i === 0) {
+        images[numberOfImages - 2].className = "";
+      }
+      if (i === 1) {
+        images[numberOfImages - 1].className = "";
+      }
+      if (i > 1) {
+        images[i - 2].className = "";
+      }
+      i++;
+    }
+  })();
 
-			// we set the 'fx' class on the first image when the page loads
-			document.getElementById('slideshow').getElementsByTagName('img')[0].className = "fx";
-			// this calls the kenBurns function every 4 seconds
-			// you can increase or decrease this value to get different effects
-			window.setInterval(kenBurns, 6000);
+  //todo  122319.1717 		The New Modern Javascript Bootcamp Course (2020) c96
+  //todo  122319.1718 		Array Callback methods
 
-			// the third variable is to keep track of where we are in the loop
-			// if it is set to 1 (instead of 0) it is because the first image is styled when the page loads
-			var images = document.getElementById('slideshow').getElementsByTagName('img'),
-				numberOfImages = images.length,
-				i = 1;
+  const myArray = [5, 6, 45, 456, 3, 67, 45, 444, 0, 33];
 
-			function kenBurns() {
-				if (i == numberOfImages) {
-					i = 0;
-				}
-				images[i].className = "fx";
+  //todo  122319.1804 		using forEach   works!
+  myArray.forEach(function (myArrayValue, idx) {
+    cr(myArrayValue);
+    cr(idx);
+  });
 
-				// we can't remove the class from the previous element or we'd get a bouncing effect so we clean up the one before last
-				// (there must be a smarter way to do this though)
-				if (i === 0) {
-					images[numberOfImages - 2].className = "";
-				}
-				if (i === 1) {
-					images[numberOfImages - 1].className = "";
-				}
-				if (i > 1) {
-					images[i - 2].className = "";
-				}
-				i++;
+  // function minusTwo(n) {
 
-			}
-		})();
+  // 	return n - 2
 
+  // }
 
+  // myArray.forEach(minusTwo); a function is anonymous when its just there for quick typing. a spontaneous function that doesnt get saved as a name. Unnamed, typed same line,with curly brackets, to get done.
 
+  //todo  122219.1340 		create CLASS with CONSTRUCTOR (old version before Get and Set)
+  // class Horse {
 
+  // 	}
+  // 	whereIs() {
 
+  // 		c(this.name + ' is at stable ' + this.stable);
+  // 		return this.name;
+  // 	}
+  // }
 
+  //todo  11020.0742
 
+  class LogoAnimation {}
 
+  let s = Snap();
+  cy(s);
 
+  (function ($) {
+    "use strict";
 
-
-
-
-
-
-		//todo  122319.1717 		The New Modern Javascript Bootcamp Course (2020) c96
-		//todo  122319.1718 		Array Callback methods
-
-		const myArray = [5, 6, 45, 456, 3, 67, 45, 444, 0, 33];
-
-		//todo  122319.1804 		using forEach   works!
-		myArray.forEach(function (myArrayValue, idx) {
-			cr(myArrayValue);
-			cr(idx);
-		});
-
-		// function minusTwo(n) {
-
-		// 	return n - 2
-
-		// }
-
-		// myArray.forEach(minusTwo); a function is anonymous when its just there for quick typing. a spontaneous function that doesnt get saved as a name. Unnamed, typed same line,with curly brackets, to get done.
-
-		//todo  122219.1340 		create CLASS with CONSTRUCTOR (old version before Get and Set)
-		// class Horse {
-
-		// 	}
-		// 	whereIs() {
-
-		// 		c(this.name + ' is at stable ' + this.stable);
-		// 		return this.name;
-		// 	}
-		// }
-
-
-		//todo  11020.0742 		
-
-class LogoAnimation {
-
-	
-
-}
-
-let s = Snap();
-cy(s);
-
-
-
-(function ($) {
-	"use strict";
-
-
-	/*==================================================================
+    /*==================================================================
 	[ Validate ]*/
-	// var name = $('.validate-input input[name="name"]');
-	// var email = $('.validate-input input[name="email"]');
-	// var subject = $('.validate-input input[name="subject"]');
-	// var message = $('.validate-input textarea[name="message"]');
+    // var name = $('.validate-input input[name="name"]');
+    // var email = $('.validate-input input[name="email"]');
+    // var subject = $('.validate-input input[name="subject"]');
+    // var message = $('.validate-input textarea[name="message"]');
 
+    $(".validate-form").on("submit", function () {
+      var check = true;
 
-	$('.validate-form').on('submit', function () {
-		var check = true;
+      if ($(name).val().trim() == "") {
+        showValidate(name);
+        check = false;
+      }
 
-		if ($(name).val().trim() == '') {
-			showValidate(name);
-			check = false;
-		}
+      if ($(subject).val().trim() == "") {
+        showValidate(subject);
+        check = false;
+      }
 
-		if ($(subject).val().trim() == '') {
-			showValidate(subject);
-			check = false;
-		}
+      if (
+        $(email)
+          .val()
+          .trim()
+          .match(
+            /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/
+          ) == null
+      ) {
+        showValidate(email);
+        check = false;
+      }
 
+      if ($(message).val().trim() == "") {
+        showValidate(message);
+        check = false;
+      }
 
-		if ($(email).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-			showValidate(email);
-			check = false;
-		}
+      return check;
+    });
 
-		if ($(message).val().trim() == '') {
-			showValidate(message);
-			check = false;
-		}
+    $(".validate-form .input1").each(function () {
+      $(this).focus(function () {
+        hideValidate(this);
+      });
+    });
 
-		return check;
-	});
+    function showValidate(input) {
+      var thisAlert = $(input).parent();
 
+      $(thisAlert).addClass("alert-validate");
+    }
 
-	$('.validate-form .input1').each(function () {
-		$(this).focus(function () {
-			hideValidate(this);
-		});
-	});
+    function hideValidate(input) {
+      var thisAlert = $(input).parent();
 
-	function showValidate(input) {
-		var thisAlert = $(input).parent();
+      $(thisAlert).removeClass("alert-validate");
+    }
+  })(jQuery);
 
-		$(thisAlert).addClass('alert-validate');
-	}
+  //todo  122219.1409 		adding GET and SET to class
+  class Horse {
+    constructor(name, stable) {
+      this._name = name;
+      this._stable = stable;
+    }
 
-	function hideValidate(input) {
-		var thisAlert = $(input).parent();
+    set name(newName) {
+      this._name = newName;
+    }
 
-		$(thisAlert).removeClass('alert-validate');
-	}
+    get name() {
+      return this._name;
+    }
 
+    set stable(newStable) {
+      this._stable = newStable;
+    }
 
+    get stable() {
+      return this._stable;
+    }
 
-})(jQuery);
+    //todo  122219.1531 		one way to do a Class Method
+    horseStatement() {
+      let statement = `${this._name} is in stable ${this._stable}.`;
+      return statement;
+    }
 
+    //todo  122219.1532 		a Second way to do a class method as a GET !
 
-		//todo  122219.1409 		adding GET and SET to class
-		class Horse {
-			constructor(name, stable) {
-				this._name = name;
-				this._stable = stable;
-			}
+    get horseStatementTwo() {
+      let statement = `${this._name} is in stable ${this._stable}.`;
+      return statement;
+    }
+  }
 
-			set name(newName) {
-				this._name = newName;
-			}
+  let horseOne = new Horse("Mobley", 6);
+  let horseTwo = new Horse("Charley", 4);
+  let horseThree = new Horse("Kansas", 10);
+  let horseFour = new Horse("Jennie", 12);
 
-			get name() {
-				return this._name;
-			}
+  let horses = new Array();
 
-			set stable(newStable) {
-				this._stable = newStable;
-			}
+  horses.push(horseOne);
+  horses.push(horseTwo);
+  horses.push(horseThree);
+  horses.push(horseFour);
 
-			get stable() {
-				return this._stable;
-			}
+  let newHorseJson = '{"name" : "Valerie", "stable" : 7}';
 
-			//todo  122219.1531 		one way to do a Class Method
-			horseStatement() {
-				let statement = `${this._name} is in stable ${this._stable}.`;
-				return statement;
-			}
+  let newHorse = new Horse();
+  newHorse = JSON.parse(newHorseJson);
 
-			//todo  122219.1532 		a Second way to do a class method as a GET !
+  horses.push(newHorse);
 
-			get horseStatementTwo() {
-				let statement = `${this._name} is in stable ${this._stable}.`;
-				return statement;
-			}
-		}
+  // demonstrates forEach, works!
+  horses.forEach(function (horse) {});
 
-		let horseOne = new Horse('Mobley', 6);
-		let horseTwo = new Horse('Charley', 4);
-		let horseThree = new Horse('Kansas', 10);
-		let horseFour = new Horse('Jennie', 12);
+  // demonstration for map--WORKS!  122419.1828 ---map DOES THE 'PUSH' FOR US''
 
-		let horses = new Array();
+  horses.forEach(function (horse) {});
 
-		horses.push(horseOne);
-		horses.push(horseTwo);
-		horses.push(horseThree);
-		horses.push(horseFour);
+  const caps = horses.map(function (t) {
+    cr(t.name.toUpperCase());
+    return t.name.toUpperCase();
+  });
 
-		let newHorseJson = '{"name" : "Valerie", "stable" : 7}';
+  //  testing WEIRD PARTS Udemy class #9
 
-		let newHorse = new Horse();
-		newHorse = JSON.parse(newHorseJson);
+  let avenue = "Hello Char";
+  cr(avenue);
 
-		horses.push(newHorse);
+  var shum = "hola";
 
-		// demonstrates forEach, works!
-		horses.forEach(function (horse) {});
+  (function (bash) {
+    var shum = "bbbb";
+    console.log("hello " + shum);
+  })("billy");
 
-		// demonstration for map--WORKS!  122419.1828 ---map DOES THE 'PUSH' FOR US''
+  function test2() {
+    var shum = "cccc";
+    console.log("hello " + shum);
+  }
 
-		horses.forEach(function (horse) {});
+  test2();
 
-		const caps = horses.map(function (t) {
-			cr(t.name.toUpperCase());
-			return t.name.toUpperCase();
-		});
+  function greetings(whatToSay) {
+    return function (name) {
+      console.log(whatToSay + " " + name);
+    };
+  }
 
+  greetings("HI ")("bill");
+  //todo  122219.1341 		use CLASS METHOD from outside of class
 
-		//  testing WEIRD PARTS Udemy class #9
+  //todo  122219.1342 		Save OBJECTS to ARRAY
 
-		let avenue = 'Hello Char';
-		cr(avenue);
+  //todo  122219.1353 		from JSON to ARRAY ITEM
 
-		var shum = 'hola';
-
-		(function (bash) {
-			var shum = 'bbbb';
-			console.log('hello ' + shum);
-		})('billy');
-
-		function test2() {
-			var shum = 'cccc';
-			console.log('hello ' + shum);
-		}
-
-		test2();
-
-		function greetings(whatToSay) {
-			return function (name) {
-				console.log(whatToSay + ' ' + name);
-			};
-		}
-
-		greetings('HI ')('bill');
-		//todo  122219.1341 		use CLASS METHOD from outside of class
-
-		//todo  122219.1342 		Save OBJECTS to ARRAY
-
-		//todo  122219.1353 		from JSON to ARRAY ITEM
-
-		for (var i = 0; i < 5; i++) {
-			// //!  120119.1040 		BEGINNING OF CELL
-			// cr(data[i].title);
-			// //!  120119.1040 		END OF CELL
-			// };
-			// 		//!  120119.0635 		END OF LOOP
-		}
-	
+  for (var i = 0; i < 5; i++) {
+    // //!  120119.1040 		BEGINNING OF CELL
+    // cr(data[i].title);
+    // //!  120119.1040 		END OF CELL
+    // };
+    // 		//!  120119.0635 		END OF LOOP
+  }
 }
-window.addEventListener('DOMChorseontentLoaded', init);
+window.addEventListener("DOMChorseontentLoaded", init);

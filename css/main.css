@@ -932,8 +932,8 @@ video {
 .box222 {
   text-align: left;
   width: 45vw;
-  margin: 0vw;
-  padding: 0vw;
+  margin: 0;
+  padding: 0;
   color: blue;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
