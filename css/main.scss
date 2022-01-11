@@ -312,7 +312,7 @@ body {
   text-decoration: none;
   position: absolute;
   font-weight: 00;
-  top: 110.5vw;
+  top: 116.5vw;
   display: inline-block;
   border-radius: 1vw;
   background-color: getColor(bitByBitBlue);
@@ -322,7 +322,49 @@ body {
   text-align: center;
   font-size: 3vw;
   margin-left: 6vw;
-  margin-top: 15px;
+  margin-top: -6vw;
+  padding: 10px 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+
+  &--volunteer {
+    text-decoration: none;
+    position: absolute;
+    font-weight: 300;
+    // top: 125.5vw;
+    display: inline-block;
+    border-radius: 1vw;
+    background-color: getColor(bitByBitBlue);
+    border: none;
+    width: 40vw;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    margin-left: 6vw;
+    // margin-top: 15px;
+    padding: 10px 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+.btnTwo {
+  text-decoration: none;
+  position: absolute;
+  font-weight: 00;
+  top: 116.5vw;
+
+  left: 40vw;
+  display: inline-block;
+  border-radius: 1vw;
+  background-color: getColor(bitByBitBlue);
+  border: none;
+  width: 30vw;
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+  margin-left: 6vw;
+  margin-top: -6vw;
   padding: 10px 10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -354,6 +396,10 @@ body {
 }
 
 .btn:hover {
+  background-color: getColor(bitByBitRed);
+  color: black;
+}
+.btnTwo:hover {
   background-color: getColor(bitByBitRed);
   color: black;
 }
@@ -443,6 +489,7 @@ body {
   width: 55vw;
   margin-top: 0vw;
   margin-left: 6vw;
+  padding-bottom: -6vw;
   color: black;
 }
 
