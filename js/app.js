@@ -3,6 +3,14 @@ window.onload = function () {
 };
 
 function init() {
+  const toggleButton = document.getElementsByClassName("toggle-button")[0];
+
+  const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+  toggleButton.addEventListener("click", () => {
+    navbarLinks.classList.toggle("active");
+  });
+
   $(".headline").click(function () {
     window.location = $(this).find("a").attr("href");
     return false;
