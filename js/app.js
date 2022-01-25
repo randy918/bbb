@@ -8,10 +8,19 @@ function init() {
     return false;
   });
 
+  const canvas = document.querySelector(".canvas");
+  const button = document.querySelector(".menu-toggle");
+
+  button.addEventListener("click", () => {
+    canvas.classList.toggle("show-nav");
+  });
+
   getTime();
   TweenMax.to("#timeStamp", 3, {
     rotationX: 360,
   });
+
+  //todo  10920.0020 		canvas turn in attempt
 
   //todo  10920.0020 		ken burns effect attempt
 

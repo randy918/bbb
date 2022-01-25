@@ -1,3 +1,7 @@
+:root {
+  --side-nav-width: 230px;
+}
+
 $colors: (
   bg: rgba(55, 66, 76, 1),
   theGreen: rgba(0, 173, 43, 1),
@@ -1354,10 +1358,40 @@ video {
   background-color: white;
   border-radius: 10px;
 }
+@media only screen and (min-width: 600px) {
+  .side-nav,
+  button {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 600px) {
+  .canvas,
+  .side-nav,
+  .main-content {
+    min-height: 100vh;
+  }
+
+  .main-content {
+    position: sticky;
+  }
+
+  .canvas {
+    transition: 0.3s ease transform;
+  }
+
+  .canvas.show-nav {
+    transform: translate(var(--side-nav-width));
+  }
   .navbar-links {
     display: none;
     width: 100%;
+  }
+
+  .side-nav {
+    position: absolute;
+    background: #5eabed;
+    width: var(--side-nav-width);
+    transform: translateX(calc(var(--side-nav-width) * -1));
   }
 }

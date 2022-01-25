@@ -1,3 +1,7 @@
+:root {
+  --side-nav-width: 230px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1404,10 +1408,41 @@ video {
   border-radius: 10px;
 }
 
+@media only screen and (min-width: 600px) {
+  .side-nav,
+  button {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  .canvas,
+  .side-nav,
+  .main-content {
+    min-height: 100vh;
+  }
+  .main-content {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  .canvas {
+    -webkit-transition: 0.3s ease transform;
+    transition: 0.3s ease transform;
+  }
+  .canvas.show-nav {
+    -webkit-transform: translate(var(--side-nav-width));
+            transform: translate(var(--side-nav-width));
+  }
   .navbar-links {
     display: none;
     width: 100%;
+  }
+  .side-nav {
+    position: absolute;
+    background: #5eabed;
+    width: var(--side-nav-width);
+    -webkit-transform: translateX(calc(var(--side-nav-width) * -1));
+            transform: translateX(calc(var(--side-nav-width) * -1));
   }
 }
 /*# sourceMappingURL=main.css.map */
