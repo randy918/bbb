@@ -18,7 +18,7 @@ modules below approved: 0 -->
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
 
 
-
+	<link href="./css/js-offcanvas.css" rel="stylesheet">
 	<link rel="style = stylesheet" href="css/main.css">
 	<link rel="style = stylesheet" href="css/mainly.css">
 	<title>Bit By Bit Home Page</title>
@@ -36,7 +36,8 @@ modules below approved: 0 -->
 <div style = "height: 20vw" class="headline">
 	 <a href = "./events.html"></a>
 </div>
-
+  <div class="c-offcanvas-content-wrap">
+        <a href="#offCanvas" id="triggerButton">Menu</a>
 	<nav class="navbar">
 
 		<!-- <div class="byb-title">BIT-BY-BIT&nbsp&nbsp&nbsp</div> -->
@@ -484,6 +485,7 @@ modules below approved: 0 -->
 	<script src="./js/myfunctions.js"></script>
 	<script src="./js/app.js" defer></script>
 	<script src="./js/TweenMax.min.js" defer></script>
+	<script src="./js/js-offcanvas.pkgd.min.js" defer></script>
 	<script src="./js/CSSPlugin.min.js" defer></script>
 	<script src="./js/snap.svg.js" defer></script>
 	<!-- <script src="./js/OrbitControls.js" defer></script> -->
@@ -491,4 +493,6 @@ modules below approved: 0 -->
 	<script src="./js/TweenMax.min.js" defer></script>
 	<script src="./js/CustomEase.min.js" defer></script>
 	<script src="./js/three.min.js" defer></script>
+	</div>
+	<aside id="offCanvas"></aside>
 </body>
