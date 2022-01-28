@@ -1353,3 +1353,13 @@ video {
     opacity: 1.4;
   }
 }
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+}
