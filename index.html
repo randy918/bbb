@@ -19,6 +19,7 @@ modules below approved: 0 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js' defer></script>
 	<script src='./js/moment.js' defer></script>
+	<script src="js-offcanvas.pkgd.min.js"></script>
 	<script src="./js/myfunctions.js"></script>
 	<script src="./js/app.js" defer></script>
 	<script src="./js/TweenMax.min.js" defer></script>
@@ -30,7 +31,7 @@ modules below approved: 0 -->
 	<script src="./js/CustomEase.min.js" defer></script>
 	<script src="./js/three.min.js" defer></script>
 
-
+	<link href="js-offcanvas.css" rel="stylesheet">
 	<link rel="style = stylesheet" href="css/main.css">
 	<link rel="style = stylesheet" href="css/mainly.css">
 	<title>1-28-22.1301</title>
@@ -44,6 +45,8 @@ modules below approved: 0 -->
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+	 <div class="c-offcanvas-content-wrap">
+        <a href="#offCanvas" id="triggerButton">Menu</a>
 
 <div style = "height: 20vw" class="headline">
 	 <a href = "./events.html"></a>
@@ -60,13 +63,13 @@ modules below approved: 0 -->
 		<div class="navbar-links">
 
 			<ul>
-				<li><a id="turned-on" class="turned-on-ltr" href="#">Home</a></li>
-				<li><a class="nav-link nav-link-ltr" href="./events.html">Events</a></li>
-				<li><a class="nav-link nav-link-ltr" href="./join.html">Participants</a></li>
-				<li><a class="nav-link nav-link-ltr" href="./volunteer.html">Volunteer</a></li>
-				<li><a class="nav-link nav-link-ltr" href="./about.html">About Us</a></li>
-				<li><a class="nav-link nav-link-ltr" href="./donate.html">Donate</a></li>
-				<li><a class="nav-link nav-link-ltr" href="./contact.html">Contact</a></li>
+				<li><a id="turned-on" class="turned-on-ltr nav-link-home" href="#">Home</a></li>
+				<li><a class="nav-link nav-link-ltr nav-link-events" href="./events.html">Events</a></li>
+				<li><a class="nav-link nav-link-ltr nav-link-participants" href="./join.html">Participants</a></li>
+				<li><a class="nav-link nav-link-ltr nav-link-volunteer" href="./volunteer.html">Volunteer</a></li>
+				<li><a class="nav-link nav-link-ltr nav-link-aboutus" href="./about.html">About Us</a></li>
+				<li><a class="nav-link nav-link-ltr nav-link-donate" href="./donate.html">Donate</a></li>
+				<li><a class="nav-link nav-link-ltr nav-link-contact" href="./contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -489,4 +492,13 @@ modules below approved: 0 -->
 
 		<h2 class="box222__text" style = "margin-bottom: -24px">
 		Website design and code by Randall Miller, Tulsa, OK&nbsp&nbsp&nbsprandy918@gmail.com<br>Copyright ©2022 Bit-by-Bit&nbsp&nbsp&nbspversion 11122.1314 </h2>
-</body>
+</div>
+ <aside id="offCanvas"></aside>
+ <a  class="js-offcanvas-trigger" 
+    data-offcanvas-trigger="off-canvas-id"
+    href="#off-canvas">Menu</a>
+
+<aside class="js-offcanvas" 
+       data-offcanvas-options='{"modifiers": "left,overlay"}' 
+       id="off-canvas-id">...</aside>
+	</body>
