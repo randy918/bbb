@@ -2,6 +2,11 @@ window.onload = function () {
   init();
 };
 
+$("#offCanvas").offcanvas({
+  modifiers: "left, overlay", // default options
+  triggerButton: "#triggerButton", // btn to open offcanvas
+});
+
 function init() {
   $(".headline").click(function () {
     window.location = $(this).find("a").attr("href");
