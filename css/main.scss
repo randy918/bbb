@@ -1389,6 +1389,12 @@ video {
     background: rgba(0, 100, 0, 1);
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
     background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    z-index: 400;
   }
 
   .byb-title:hover {
