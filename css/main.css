@@ -1405,15 +1405,17 @@ video {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  /*Tablets [601px -> 1200px]*/
+@media only screen and (min-width: 600px) {
+  .side-nav,
+  button {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  /*Big smartphones [426px -> 600px]*/
-}
-
-@media only screen and (max-width: 425px) {
-  /*Small smartphones [325px -> 425px]*/
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
