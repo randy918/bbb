@@ -24,9 +24,9 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
     background: darkgreen;
     background-color: #3c1e17;
     background-size: cover;
@@ -41,15 +41,18 @@
     background-color: getColor(theOrange);
   }
   .nav-logo {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 0 0 0.25em 0;
     width: 35vw;
   }
   .navbar-links ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -60,7 +63,7 @@
   }
   .navbar-links li {
     list-style: none;
-    font-size: 1rem;
+    font-size: 5vw;
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     margin-left: -0.85vw;
