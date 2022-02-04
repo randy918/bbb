@@ -37,6 +37,27 @@
     width: 40vw;
     height: 100vh;
     z-index: 400;
+    transform: translateX(-100%);
+  }
+
+  .top-navbar {
+    background-color: #3c1e17;
+    position: relative;
+    width: 100%;
+    line-height: 3rem;
+    outline: none;
+    transition: background-color 0.2s;
+  }
+
+  .menu-toggle {
+    position: relative;
+    left: 3vw;
+    bottom: 0.8vw;
+    padding-top: -1rem;
+  }
+
+  .menu-toggle:hover {
+    background-color: rgb(109, 15, 15);
   }
 
   .byb-title:hover {

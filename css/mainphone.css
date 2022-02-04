@@ -36,6 +36,26 @@
     width: 40vw;
     height: 100vh;
     z-index: 400;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  .top-navbar {
+    background-color: #3c1e17;
+    position: relative;
+    width: 100%;
+    line-height: 3rem;
+    outline: none;
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+  }
+  .menu-toggle {
+    position: relative;
+    left: 3vw;
+    bottom: 0.8vw;
+    padding-top: -1rem;
+  }
+  .menu-toggle:hover {
+    background-color: #6d0f0f;
   }
   .byb-title:hover {
     background-color: getColor(theOrange);
