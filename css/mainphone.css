@@ -39,6 +39,12 @@
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
   }
+  .show__menu {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
   .top-navbar {
     background-color: #3c1e17;
     position: relative;

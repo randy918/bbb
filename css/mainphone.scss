@@ -40,6 +40,10 @@
     transform: translateX(-100%);
   }
 
+  .show__menu {
+    transform: translateX(0%);
+    transition: all 0.3s;
+  }
   .top-navbar {
     background-color: #3c1e17;
     position: relative;

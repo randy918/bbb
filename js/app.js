@@ -1,4 +1,11 @@
 window.onload = function () {
+  const menuBtn = document.getElementById("menuBtn");
+  const body = document.body;
+
+  menuBtn.addEventListener("click", () => {
+    console.log("hello666");
+  });
+
   init();
 };
 
