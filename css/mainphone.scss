@@ -17,6 +17,11 @@
     padding: 0;
   }
 
+  .show__menu {
+    transform: translateX(100%);
+    transition: all 0.3s;
+  }
+
   .headline {
     background-image: url("/images/1-07-22.0710-headline\ SOIREE.png");
     background-size: cover;
@@ -24,11 +29,11 @@
     height: 100%;
   }
 
+  //!  20922.1934     -90 should be -100 translatex
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    background: rgba(0, 100, 0, 1);
     background-color: #3c1e17;
     background-size: cover;
     position: absolute;
@@ -37,12 +42,24 @@
     width: 40vw;
     height: 100vh;
     z-index: 400;
-    transform: translateX(-100%);
+    transform: translateX(-90%);
+  }
+
+  .top-navbar .hero__menu {
+    cursor: pointer;
+    font-size: 4vw;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+  .top-navbar .hero__menu:hover {
+    background-color: red;
   }
 
   .show__menu {
-    transform: translateX(0%);
-    transition: all 0.3s;
+    transition: all 0.35s ease-in-out;
   }
   .top-navbar {
     background-color: #3c1e17;
@@ -57,7 +74,8 @@
     position: relative;
     left: 3vw;
     bottom: 0.8vw;
-    padding-top: -1rem;
+    transition: all 0.3s ease-in-out; /* Hover off */
+    z-index: 4000;
   }
 
   .menu-toggle:hover {
@@ -123,6 +141,9 @@
     color: white;
     display: inline-block;
     position: relative;
+  }
+
+  a:link a:visited {
   }
 
   #turned-on {

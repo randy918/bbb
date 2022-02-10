@@ -1,9 +1,9 @@
 window.onload = function () {
   const menuBtn = document.getElementById("menuBtn");
   const body = document.body;
-
+  console.log(body);
   menuBtn.addEventListener("click", () => {
-    console.log("hello666");
+    body.classList.add("show__menu");
   });
 
   init();
