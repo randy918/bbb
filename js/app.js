@@ -34,6 +34,10 @@ function init() {
 
     function kenBurns() {
       if (i == numberOfImages) {
+        console.log(
+          "🚀 ~ file: app.js ~ line 37 ~ kenBurns ~ numberOfImages",
+          numberOfImages
+        );
         i = 0;
       }
       images[i].className = "fx";
