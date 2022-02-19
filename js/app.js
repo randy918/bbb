@@ -1,6 +1,9 @@
 window.onload = function () {
   init();
 };
+const c = console.log.bind(console);
+console.log("hello world");
+c("hello2");
 
 function init() {
   $(".headline").click(function () {
