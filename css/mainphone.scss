@@ -42,7 +42,12 @@
     width: 40vw;
     height: 100vh;
     z-index: 400;
-    transform: translateX(-90%);
+    // REVIEW
+    transform: translateX(-70%);
+  }
+
+  .navbar.open {
+    transform: translateX(0%);
   }
 
   .top-navbar .hero__menu {

@@ -41,8 +41,12 @@
     width: 40vw;
     height: 100vh;
     z-index: 400;
-    -webkit-transform: translateX(-90%);
-            transform: translateX(-90%);
+    -webkit-transform: translateX(-70%);
+            transform: translateX(-70%);
+  }
+  .navbar.open {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
   .top-navbar .hero__menu {
     cursor: pointer;
