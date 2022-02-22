@@ -20,7 +20,7 @@
   .show__menu {
     transform: translateX(30%);
     transition: all 0.3s;
-    z-index: 600;
+    z-index: 999999;
   }
 
   .headline {

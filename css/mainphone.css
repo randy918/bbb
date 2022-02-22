@@ -16,7 +16,7 @@
             transform: translateX(30%);
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    z-index: 600;
+    z-index: 999999;
   }
   .headline {
     background-image: url("/images/1-07-22.0710-headline SOIREE.png");
