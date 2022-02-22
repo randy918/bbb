@@ -18,8 +18,9 @@
   }
 
   .show__menu {
-    transform: translateX(100%);
+    transform: translateX(30%);
     transition: all 0.3s;
+    z-index: 600;
   }
 
   .headline {
@@ -29,7 +30,7 @@
     height: 100%;
   }
 
-  //!  20922.1934     -90 should be -100 translatex
+  //!  20922.1934     -90 should be -100 translateX
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -42,12 +43,16 @@
     width: 40vw;
     height: 100vh;
     z-index: 400;
-    // REVIEW
-    transform: translateX(-70%);
+    // REVIEW {tr
+
+    transition: transform 0.5s ease;
+
+    transform: translateX(-100%);
   }
 
   .navbar.open {
     transform: translateX(0%);
+    z-index: 99999;
   }
 
   .top-navbar .hero__menu {
@@ -73,6 +78,7 @@
     line-height: 3rem;
     outline: none;
     transition: background-color 0.2s;
+    z-index: 40;
   }
 
   .menu-toggle {
@@ -80,7 +86,7 @@
     left: 3vw;
     bottom: 0.8vw;
     transition: all 0.3s ease-in-out; /* Hover off */
-    z-index: 4000;
+    z-index: 99999;
   }
 
   .menu-toggle:hover {

@@ -20,6 +20,12 @@ function init() {
     rotationX: 360,
   });
 
+  // var menu = document.getElementById("navbar");
+  // menu.addEventListener("click", function () {
+  //   var nav = document.getElementsByTagName("nav")[0];
+  //   header.classList.toggle("open");
+  // });
+
   //todo  10920.0020 		ken burns effect attempt
 
   (function () {

@@ -12,10 +12,11 @@
     padding: 0;
   }
   .show__menu {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    z-index: 600;
   }
   .headline {
     background-image: url("/images/1-07-22.0710-headline SOIREE.png");
@@ -41,12 +42,17 @@
     width: 40vw;
     height: 100vh;
     z-index: 400;
-    -webkit-transform: translateX(-70%);
-            transform: translateX(-70%);
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
   .navbar.open {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
+    z-index: 99999;
   }
   .top-navbar .hero__menu {
     cursor: pointer;
@@ -72,6 +78,7 @@
     outline: none;
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s;
+    z-index: 40;
   }
   .menu-toggle {
     position: relative;
@@ -80,7 +87,7 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     /* Hover off */
-    z-index: 4000;
+    z-index: 99999;
   }
   .menu-toggle:hover {
     background-color: #6d0f0f;
