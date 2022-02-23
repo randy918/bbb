@@ -1,7 +1,9 @@
 window.onload = function () {
   const menuOn = document.querySelector("#menu-button");
+  const menuOff = document.querySelector("#x-btn");
 
   menuOn.addEventListener("click", showMenu, false);
+  menuOff.addEventListener("click", hideMenu, false);
 
   function showMenu(e) {
     document.getElementById("navbar").classList.add("visible");
