@@ -1,10 +1,17 @@
 window.onload = function () {
-  const menuBtn = document.getElementById("menuBtn");
-  const body = document.body;
-  console.log(body);
-  menuBtn.addEventListener("click", () => {
-    body.classList.add("show__menu");
-  });
+  const menuOn = document.querySelector("#menu-button");
+
+  menuOn.addEventListener("click", showMenu, false);
+
+  function showMenu(e) {
+    document.getElementById("navbar").classList.add("visible");
+    c("kyll");
+  }
+
+  function hideMenu(e) {
+    document.getElementById("navbar").classList.remove("visible");
+    c("doc");
+  }
 
   init();
 };

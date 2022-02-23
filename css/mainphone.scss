@@ -17,11 +17,6 @@
     padding: 0;
   }
 
-  .show__menu {
-    transform: translateX(100%);
-    transition: all 0.3s;
-  }
-
   .headline {
     background-image: url("/images/1-07-22.0710-headline\ SOIREE.png");
     background-size: cover;
@@ -30,27 +25,27 @@
   }
 
   //!  20922.1934     -90 should be -100 translatex
-  .navbar {
-    display: flex;
-    justify-content: space-between;
+  #navbar {
     align-items: start;
     background-color: #3c1e17;
     background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
+    transform: translateX(-90%);
+    transition: 0.3s ease-in-out;
     width: 40vw;
-    height: 100vh;
     z-index: 400;
-    // REVIEW
-    transform: translateX(-70%);
   }
 
-  .navbar.open {
+  #navbar.visible {
     transform: translateX(0%);
   }
 
-  .top-navbar .hero__menu {
+  .top-navbar.visible {
     cursor: pointer;
     font-size: 4vw;
     background-color: #fff;
@@ -63,9 +58,6 @@
     background-color: red;
   }
 
-  .show__menu {
-    transition: all 0.35s ease-in-out;
-  }
   .top-navbar {
     background-color: #3c1e17;
     position: relative;

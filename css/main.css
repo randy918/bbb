@@ -19,7 +19,7 @@ body {
   height: 100%;
 }
 
-.navbar {
+#navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
