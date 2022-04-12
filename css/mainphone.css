@@ -93,9 +93,9 @@
     width: 35vw;
   }
   .x-svg {
-    margin-top: 0vw;
-    width: 8vw;
-    padding-left: 4vw;
+    margin-top: -1.15vw;
+    width: 10vw;
+    padding-left: 5vw;
   }
   .navbar-links ul {
     -webkit-box-orient: vertical;
@@ -177,13 +177,14 @@
     left: 0;
   }
   .address-strip {
-    height: 3vw;
+    height: 3em;
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
     background-size: cover;
-    font-size: 2vw;
+    padding-top: 0.4rem;
+    font-size: 1rem;
     font-weight: 300;
     text-align: center;
-    line-height: 1.66;
+    line-height: 1.25rem;
   }
   .slogan {
     position: absolute;
@@ -768,7 +769,7 @@
     color: getColor(theBrown);
   }
   h9 {
-    color: getColor(theBackground);
+    color: white;
   }
   #horse-area h3 {
     margin-top: 2vw;

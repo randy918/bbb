@@ -94,9 +94,10 @@
   }
 
   .x-svg {
-    margin-top: 0vw;
-    width: 8vw;
-    padding-left: 4vw;
+    margin-top: -1.15vw;
+
+    width: 10vw;
+    padding-left: 5vw;
   }
 
   .navbar-links ul {
@@ -185,7 +186,6 @@
     color: getColor(theOrange);
     left: 0;
   }
-
   .turned-on-ltr:hover::before {
     width: 100%;
     color: getColor(theOrange);
@@ -195,13 +195,14 @@
   //!  4-25-20.0951       SLOGAN AREA NEW 🏛  WITH BEM
 
   .address-strip {
-    height: 3vw;
+    height: 3em;
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
     background-size: cover;
-    font-size: 2vw;
+    padding-top: 0.4rem;
+    font-size: 1rem;
     font-weight: 300;
     text-align: center;
-    line-height: 1.66;
+    line-height: 1.25rem;
   }
 
   .slogan {
@@ -892,7 +893,7 @@
   }
 
   h9 {
-    color: getColor(theBackground);
+    color: white;
   }
 
   //!  42520.1038     FORMER HORSE AREA
