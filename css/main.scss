@@ -3,6 +3,8 @@ $colors: (
   theGreen: rgba(0, 173, 43, 1),
   theRed: rgba(194, 47, 51, 1),
   theOrange: rgba(255, 103, 0, 1),
+  theRodeoPink: #f1a1a4,
+  theRodeoBlue: #7f86b0,
   theYellow: rgb(221, 172, 94),
   theGray: rgb(78, 92, 107),
   theBackground: rgba(241, 227, 214, 1),
@@ -19,6 +21,7 @@ $colors: (
 
 * {
   box-sizing: border-box;
+  border: none;
 }
 
 body {
@@ -29,6 +32,52 @@ body {
   margin: 0;
   padding: 0;
 }
+
+//!  41422.1002 BANNER BUTTONS  b u t t o n  m a s t e r ATTEMPT
+
+.bt {
+  background-color: white;
+  border-radius: 0.5vw;
+  box-shadow: 1px 1px 20px 0 #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2vw;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding: 0.75vw 1.5vw;
+  text-align: center;
+  transition: 0.3s;
+
+  &--soiree-home {
+    box-shadow: 1px 1px 20px 0 #626e56;
+    left: 62vw;
+    position: absolute;
+    top: 4vw;
+
+    &:hover {
+      background-color: #626e56;
+      color: white;
+      left: 62.25vw;
+      top: 4.25vw;
+    }
+  }
+
+  &--rodeo-home {
+    box-shadow: 1px 1px 20px 0 #7f86b0;
+    left: 50vw;
+    position: absolute;
+    top: 33vw;
+
+    &:hover {
+      background-color: #952d50;
+      color: white;
+      left: 50.25vw;
+      top: 33.25vw;
+    }
+  }
+}
+
+//!  41422.1744 END OF    BT SERIES END
 
 .headline {
   background-image: url("/images/4-12-22.1618-headline-SOIREE.png");
@@ -117,8 +166,6 @@ body {
   left: 0%;
   background-color: getColor(bitByBitRed); //color of underline
 }
-
-//!  41422.1002 BANNER BUTTONS
 
 //!  12520.1007     HOT AREA FOR UNDERLINING
 .nav-link-ltr::before {
@@ -1297,7 +1344,7 @@ video {
   &__facebook {
     position: absolute;
     right: 5vw;
-    top: 29vw;
+    top: 49vw;
     width: 6vw;
     transition: all 300ms ease-out;
     z-index: 700;
@@ -1305,7 +1352,7 @@ video {
   &__instagram {
     position: absolute;
     right: 5vw;
-    top: 37vw;
+    top: 57vw;
     width: 6vw;
     transition: all 300ms ease-out;
     z-index: 700;
