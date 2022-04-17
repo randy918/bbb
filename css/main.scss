@@ -29,8 +29,9 @@ body {
   font-family: "Overpass", sans-serif;
   font-weight: 300;
   font-size: 30px;
-  margin: 0;
-  padding: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  text-align: left;
 }
 
 //!  41422.1002 BANNER BUTTONS  b u t t o n  m a s t e r ATTEMPT
@@ -76,6 +77,117 @@ body {
     }
   }
 }
+
+//!  41622.1707 H SERIES TEXT BEGINS
+
+.box111 {
+  // width: 85vw;
+  padding: 0;
+  padding-top: 0vw;
+
+  margin-top: 0;
+  color: get;
+
+  &__title {
+    font-size: 7vmin;
+
+    &--pink {
+      line-height: 1.1;
+      font-size: 6.75vw;
+      color: getColor(bitByBitRed);
+    }
+
+    &--pink2 {
+      color: getColor(bitByBitRed);
+      font-size: 7vw;
+      line-height: 1;
+    }
+
+    &--pink3 {
+      margin-top: 3vw;
+      margin-bottom: 0vw;
+      color: getColor(bitByBitBlue);
+
+      font-size: 4vw;
+      letter-spacing: 1.5;
+    }
+  }
+
+  &__text {
+    width: 75vw;
+
+    &--pink {
+      color: getColor(bitByBitRed);
+    }
+
+    // end of --pink
+
+    &--bigger {
+      font-size: 4vw;
+      line-height: 2;
+      padding-top: 2vw;
+    }
+  }
+
+  // end of __text
+}
+
+h1 {
+  color: getColor(theBrown);
+  font-family: "Alfa Slab One", serif;
+  font-size: 7vw;
+  margin-bottom: 0;
+  padding-left: 6vw;
+  padding-right: 4vw;
+  letter-spacing: 1.5;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: "Overpass", serif;
+  font-weight: 500;
+  color: getColor(theBrown);
+  font-size: 2.25vw;
+  padding-left: 6vw;
+  padding-right: 4vw;
+  padding-top: 0;
+}
+
+h3 {
+  padding-top: 0vw;
+  padding-left: 4vw;
+  margin: 0vw;
+  margin-bottom: 1.5vw;
+  font-size: calc(14px + (26 - 14) * ((100vw -300px) / (1600 - 300)));
+  line-height: 1.25;
+  font-family: "Overpass", serif;
+  font-weight: 300;
+  padding-left: 6vw;
+  font-style: normal;
+  color: getColor(theBrown);
+}
+
+.pink {
+  color: getColor(bitByBitRed);
+}
+
+.center {
+  text-align: center;
+}
+
+.tight-bottom {
+  margin-bottom: -24px;
+}
+
+.larger {
+  font-size: 7vw;
+}
+
+.slab-font {
+  font-family: "Alfa Slab One", serif;
+}
+
+//!  41622.1707 H SERIES TEXT ENDSS
 
 //!  41422.1744 END OF    BT SERIES END
 
@@ -498,8 +610,6 @@ body {
     margin: 0 0 0 0;
     padding: 0;
     padding-top: 0vw;
-    padding-left: 6vw;
-    padding-right: 4vw;
     margin-top: 0;
     color: get;
 
@@ -550,65 +660,6 @@ body {
 //!  60120.1856     DONATE CODE TEST ENDS
 
 //!  42520.1714    NON HOME PAGE
-
-.box111 {
-  text-align: left;
-  font-family: "Alfa Slab One", serif;
-  align-items: bottom;
-  // width: 85vw;
-  margin: 0 0 0 0;
-  padding: 0;
-  padding-top: 0vw;
-  padding-left: 6vw;
-  padding-right: 4vw;
-  margin-top: 0;
-  color: get;
-
-  &__title {
-    font-size: 7vmin;
-    letter-spacing: 1.5;
-    line-height: 1.1;
-
-    &--pink {
-      line-height: 1.1;
-      font-size: 6.75vw;
-      color: getColor(bitByBitRed);
-    }
-
-    &--pink2 {
-      color: getColor(bitByBitRed);
-      font-size: 7vw;
-      line-height: 1;
-    }
-
-    &--pink3 {
-      margin-top: 3vw;
-      margin-bottom: 0vw;
-      color: getColor(bitByBitBlue);
-
-      font-size: 4vw;
-      letter-spacing: 1.5;
-    }
-  }
-
-  &__text {
-    width: 75vw;
-
-    &--pink {
-      color: getColor(bitByBitRed);
-    }
-
-    // end of --pink
-
-    &--bigger {
-      font-size: 4vw;
-      line-height: 2;
-      padding-top: 2vw;
-    }
-  }
-
-  // end of __text
-}
 
 // end of .box111
 
@@ -765,21 +816,6 @@ input[type="submit"]:hover {
 
 //!  42520.1035     GENERAL USE TEXT
 
-h1 {
-  font-family: "Alfa Slab One", serif;
-  color: getColor(theBrown);
-  line-height: 0.75;
-  font-size: 7vw;
-  margin-bottom: 0;
-}
-
-h2 {
-  font-family: "Overpass", serif;
-  font-weight: 500;
-  color: getColor(theBrown);
-  font-size: 2.25vw;
-  padding-top: 0;
-}
 .h22 {
   font-family: "Overpass", serif;
   font-weight: 900;
@@ -796,19 +832,6 @@ h2 {
 .zero-top {
   margin-top: 1.25vw;
   padding-top: 0;
-}
-
-h3 {
-  padding-top: 0vw;
-  padding-left: 4vw;
-  margin: 0vw;
-  margin-bottom: 1.5vw;
-  font-size: calc(14px + (26 - 14) * ((100vw -300px) / (1600 - 300)));
-  line-height: 1.25;
-  font-family: garamond-premier-pro-display, serif;
-  font-weight: 300;
-  font-style: normal;
-  color: getColor(theBrown);
 }
 
 h4 {
@@ -1077,6 +1100,8 @@ video {
     position: relative;
     padding-top: 22.25%;
     padding-bottom: 56.25%;
+    margin-left: 6vw;
+    margin-right: 4vw;
     height: 0;
     overflow: hidden;
     max-width: 100%;
@@ -1348,6 +1373,9 @@ video {
     width: 6vw;
     transition: all 300ms ease-out;
     z-index: 700;
+    &--other {
+      top: 6vw;
+    }
   }
   &__instagram {
     position: absolute;
@@ -1356,6 +1384,9 @@ video {
     width: 6vw;
     transition: all 300ms ease-out;
     z-index: 700;
+    &--other {
+      top: 13vw;
+    }
   }
   &__pppp {
     position: absolute;
