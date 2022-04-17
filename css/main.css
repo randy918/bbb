@@ -513,7 +513,7 @@ h6 {
   font-size: 3vw;
   font-weight: 00;
   margin-left: 6vw;
-  margin-top: -6vw;
+  margin-top: 4vw;
   padding: 10px 10px;
   position: absolute;
   text-align: center;
@@ -546,7 +546,7 @@ h6 {
   position: absolute;
   font-weight: 00;
   top: 116.5vw;
-  left: 40vw;
+  left: 20vw;
   display: inline-block;
   border-radius: 1vw;
   background-color: #004f88;
@@ -555,8 +555,8 @@ h6 {
   color: white;
   text-align: center;
   font-size: 3vw;
-  margin-left: 6vw;
-  margin-top: -6vw;
+  margin-right: 6vw;
+  margin-top: 4vw;
   padding: 10px 10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
