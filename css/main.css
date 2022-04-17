@@ -109,10 +109,11 @@ h1 {
   color: #652a24;
   font-family: "Alfa Slab One", serif;
   font-size: 7vw;
-  margin-bottom: 0;
+  margin-bottom: 2vw;
   padding-left: 6vw;
   padding-right: 4vw;
   letter-spacing: 1.5;
+  padding-bottom: 2vw;
   line-height: 1.1;
 }
 
@@ -146,6 +147,18 @@ h3 {
 
 .center {
   text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.center-left {
+  text-align: left;
+  width: 70%;
+  margin: auto;
+}
+
+.auto-margin {
+  margin: auto;
 }
 
 .tight-bottom {
