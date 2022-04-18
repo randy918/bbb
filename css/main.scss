@@ -62,6 +62,19 @@ body {
       top: 4.25vw;
     }
   }
+  &--soiree-events {
+    box-shadow: 1px 1px 20px 0 black;
+    left: 32vw;
+    position: absolute;
+    top: 12vw;
+
+    &:hover {
+      background-color: getColor(theBrown);
+      color: white;
+      left: 32.25vw;
+      top: 12.25vw;
+    }
+  }
 
   &--rodeo-home {
     box-shadow: 1px 1px 20px 0 #7f86b0;
@@ -139,7 +152,7 @@ h1 {
   margin-bottom: 2vw;
   padding-left: 6vw;
   padding-right: 4vw;
-  letter-spacing: 1.5;
+  letter-spacing: 1.5px;
   padding-bottom: 1vw;
   line-height: 1.1;
 }
@@ -214,6 +227,18 @@ h6 {
   color: getColor(bitByBitRed);
 }
 
+.white {
+  color: white;
+}
+
+.blonde {
+  color: getColor(theBlonde);
+}
+
+.medium {
+  font-size: 3.5vw;
+}
+
 .center {
   text-align: center;
   margin: auto;
@@ -235,9 +260,17 @@ h6 {
 .bolder {
   font-weight: 900;
 }
+.lighter {
+  font-weight: 300;
+}
 
 .larger {
   font-size: 7vw;
+}
+
+.smaller {
+  font-size: 2vw;
+  line-height: 1.25;
 }
 
 .slab-font {
@@ -680,6 +713,18 @@ h6 {
     }
   }
 }
+
+//!  41822.0734     EVENT SOIREE DETAIL begins
+
+.soiree-event {
+  position: absolute;
+  top: 140vw;
+  margin: auto;
+  z-index: 500;
+}
+
+//!  41822.0734     EVENT SOIREE DETAIL ends
+
 //!  60120.1856     DONATE CODE TEST BEGINS
 
 .pay-button {
@@ -1100,6 +1145,11 @@ video {
 .box333__text--pic {
   position: absolute;
   left: 0;
+}
+.box444__text--pic {
+  position: absolute;
+  left: 0;
+  top: 245vw;
 }
 
 #video-wrapper4 {

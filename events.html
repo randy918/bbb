@@ -3,91 +3,63 @@ modules below approved: 0 -->
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/bqb8lmt.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i&display=swap"
-      rel="stylesheet"
-    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.typekit.net/bqb8lmt.css" />
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js" defer></script>
+        <script src="./js/moment.js" defer></script>
+        <script src="./js/myfunctions.js"></script>
+        <script src="./js/app.js" defer></script>
+        <script src="./js/TweenMax.min.js" defer></script>
+        <script src="./js/CSSPlugin.min.js" defer></script>
+        <script src="./js/snap.svg.js" defer></script>
+        <script src="./js/TimelineMax.min.js" defer></script>
+        <script src="./js/TweenMax.min.js" defer></script>
+        <script src="./js/CustomEase.min.js" defer></script>
+        <script src="./js/three.min.js" defer></script>
+        <link rel="style = stylesheet" href="css/main.css" />
+        <title>May 20th Urban Cowboy Soirée</title>
+    </head>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-      defer
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"
-      defer
-    ></script>
-    <script src="./js/moment.js" defer></script>
-    <script src="./js/myfunctions.js"></script>
-    <script src="./js/app.js" defer></script>
-    <script src="./js/TweenMax.min.js" defer></script>
-    <script src="./js/CSSPlugin.min.js" defer></script>
-    <script src="./js/snap.svg.js" defer></script>
-    <!-- <script src="./js/OrbitControls.js" defer></script> -->
-    <script src="./js/TimelineMax.min.js" defer></script>
-    <script src="./js/TweenMax.min.js" defer></script>
-    <script src="./js/CustomEase.min.js" defer></script>
-    <script src="./js/three.min.js" defer></script>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-links">
+                <ul>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./index.html">Home </a>
+                    </li>
+                    <li>
+                        <a id="turned-on" class="turned-on-ltr" href="./events.html">Events</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./join.html">Participants</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./volunteer.html"
+                        >Volunteer</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./donate.html">Donate</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <link rel="style = stylesheet" href="css/main.css" />
-    <title>May 20th Urban Cowboy Soirée</title>
-  </head>
-
-  <body>
-    <nav class="navbar">
-      <!-- <div class="byb-title">BIT-BY-BIT&nbsp&nbsp&nbsp</div> -->
-      <!-- <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a> -->
-      <div class="navbar-links">
-        <ul>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./index.html">Home </a>
-          </li>
-          <li>
-            <a id="turned-on" class="turned-on-ltr" href="./events.html"
-              >Events</a
-            >
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./join.html">Participants</a>
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./volunteer.html"
-              >Volunteer</a
-            >
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./about.html">About Us</a>
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./donate.html">Donate</a>
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <header>
-      <div>
-        <!-- <img class = "logo" src="/images/bit-by-bit.svg" alt="Bit by Bit Logo animation" width ='40%'> -->
-        <svg
+        <header>
+            <div>
+                <svg
           class="logo"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -436,80 +408,111 @@ modules below approved: 0 -->
               </g>
             </g>
           </a>
-        </svg>
-      </div>
-    </header>
+                </svg>
+            </div>
+        </header>
 
-    <main>
-      <div id="slideshow">
-        <img src="/images/events-4.jpg" />
-        <img src="/images/events-2.jpg" />
-        <img src="/images/events-3.jpg" />
-        <img src="/images/events-1.jpg" />
-        <img src="/images/events-5.jpg" />
-      </div>
-      <!-- <div class="video-wrapper">
-		<iframe poster="http://site.com/img.jpg"src="/videos/Oologah-Therapeutic-Riding-Program-Helps-Many-Improve-Bit-By-Bit.mp4" frameborder="0"
-			allowfullscreen></iframe>
-	</div> -->
+        <main>
+            <div id="slideshow">
+                <img src="/images/events-4.jpg" />
+                <img src="/images/events-2.jpg" />
+                <img src="/images/events-3.jpg" />
+                <img src="/images/events-1.jpg" />
+                <img src="/images/events-5.jpg" />
+            </div>
 
-      <!-- <div>
+            <div></div>
 
-<video id="video-wrpper2" poster="/videos/1-11-20.1328c-test-thumbnail.jpg"
-	src="/videos/Oologah-Therapeutic-Riding-Program-Helps-Many-Improve-Bit-By-Bit.mp4" controls></video>
+            <div class="address-strip">
+                <h9>14674 S. Highway 169&nbsp • &nbspOologah, OK 74053&nbsp •
+                &nbsp918-371-1750&nbsp • &nbspMon-Thurs 9-5, Fri 9-noon</h9>
+            </div>
 
-</div> -->
-
-      <div></div>
-
-      <div class="address-strip">
-        <h9
-          >14674 S. Highway 169&nbsp • &nbspOologah, OK 74053&nbsp •
-          &nbsp918-371-1750&nbsp • &nbspMon-Thurs 9-5, Fri 9-noon
-        </h9>
-      </div>
-
-      <div class="box111">
-        <h2 class="center" style="margin-bottom: -24px">
-          <br />Contact Linda Barron at 918-371-1750 for reservations or
-          sponsorship information.
-        </h2>
-        <h1 class="box111__title">
-          <span class="pink">Bit by Bit <br />Spring 2022 Events</span>
-        </h1>
+            <div class="box111">
+                <h2 class="center" style="margin-bottom: -24px">
+                <br />Contact Linda Barron at 918-371-1750 for reservations or
+                sponsorship information.
+            </h2>
+            <h1 class="box111__title">
+                <span class="pink">Bit by Bit <br />Spring 2022 Events</span>
+            </h1>
         <h2 class="box222__text">
-          <img
-            class="box333__text--pic"
-            src="/images/4-16-22-urban-cowboy-events-soiree.png"
-            style="float: left"
-            style="margin: 20px"
-            width="100%"
-            alt="Warning!"
-          />
-        </h2>
-      </div>
-      <br /><br />
-
-      <div class="social-wrap">
-        <a target="_blank" href="https://www.facebook.com/BitbyBitOK/">
-          <figure>
             <img
-              class="social-wrap__facebook social-wrap__facebook--other"
-              src="/images/7-22-21.0800-facebook-SOCIAL-MEDIA-my-website.svg"
+                class="box333__text--pic"
+                src="/images/4-16-22-urban-cowboy-events-soiree.png"
+                style="float: left"
+                style="margin: 20px"
+                width="100%"
+                alt="Warning!"
             />
-          </figure>
+            <img
+                class="box444__text--pic"
+                src="/images/4-16-22-rodeo-camp-info.png"
+                style="float: left"
+                style="margin: 20px"
+                width="100%"
+                alt="Warning!"
+            />
+
+        </h2>
+    </div class="center" >
+    <div class="soiree-event center" style="text-align:center;left:5vw">
+        <h2 class="white medium lighter center">
+        Featuring Emcee<slab class="slab-font"> Travis Meyer</slab>
+        </h2>
+        <h2 class="white medium lighter center">
+            <slab class="slab-font"> $75</slab> per person
+        </h2>
+        <br />
+
+        <h2 class="white medium lighter center">
+            <slab class="slab-font" style="margin-bottom:-1vw"><br>Sponsorship Tables & Opportunities</slab>
+            <h2 class="white" style="margin-bottom:-2vw">Contact Linda Barron at 918-371-1750 or at lbarron@bitbybitok.org
+        </h2>
+
+        <h1 style="margin-bottom:-1vw">The GILLEY</h1>
+        <h2 class="white">
+            <slab class="slab-font">$7,000</slab> (Presenting Sponsor)<br>Table for ten, recognition as Presenting Sponsor on publicity and
+            event signage.
+        </h2>
+        <h1 style="margin-bottom:-1vw">The WAYLON</h1>
+        <h2 class="white center">
+            <slab class="slab-font">$5,000<br></slab> Table for eight, event sponsor recognition on event signage and publicity for event.
+        </h2>
+        <h1 style="margin-bottom:-1vw">The LORETTA</h1>
+        <h2 class="white">
+            <slab class="slab-font">$3,000<br></slab> Table for six, event sponsor recognition on event signage and publicity for event.
+        </h2>
+        <h1 style="margin-bottom:-1vw">The CONWAY</h1>
+        <h2 class="white">
+            <slab class="slab-font">$2,000<br></slab> Table for four, event sponsor recognition on event signage and publicity for event.
+        </h2>
+
+        <button class = "bt bt--soiree-events" type="button">Individual Tickets on Eventbrite.com</button>
+
+    </div>
+        <br /><br />
+
+    <div class="social-wrap">
+        <a target="_blank" href="https://www.facebook.com/BitbyBitOK/">
+            <figure>
+            <img
+                class="social-wrap__facebook social-wrap__facebook--other"
+                src="/images/7-22-21.0800-facebook-SOCIAL-MEDIA-my-website.svg"
+                />
+            </figure>
         </a>
         <a target="_blank" href="https://www.instagram.com/bitbybitok/">
-          <figure>
+            <figure>
             <img
-              class="social-wrap__instagram social-wrap__instagram--other"
-              src="/images/7-22-21.0800-instagram-SOCIAL-MEDIA-my-website.svg"
+                class="social-wrap__instagram social-wrap__instagram--other"
+                src="/images/7-22-21.0800-instagram-SOCIAL-MEDIA-my-website.svg"
             />
-          </figure>
+        </figure>
         </a>
-      </div>
-    </main>
+    </div>
+</main>
 
     <!-- <footer id="timeStamp"></footer> -->
-  </body>
+</body>
 </html>
