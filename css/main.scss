@@ -64,14 +64,14 @@ body {
   }
   &--soiree-events {
     box-shadow: 1px 1px 20px 0 black;
-    left: 32vw;
+    left: 30vw;
     position: absolute;
     top: 12vw;
 
     &:hover {
       background-color: getColor(theBrown);
       color: white;
-      left: 32.25vw;
+      left: 30.25vw;
       top: 12.25vw;
     }
   }
@@ -143,6 +143,17 @@ body {
   }
 
   // end of __text
+}
+
+.box444 {
+  position: absolute;
+  left: 4vw;
+  top: 215vw;
+}
+.box555 {
+  position: absolute;
+  left: 4vw;
+  top: 225vw;
 }
 
 h1 {
@@ -270,6 +281,30 @@ h6 {
 
 .smaller {
   font-size: 2vw;
+  line-height: 1.25;
+}
+.f1 {
+  font-size: 1vw;
+  line-height: 1.25;
+}
+.f2 {
+  font-size: 2vw;
+  line-height: 1.25;
+}
+.f3 {
+  font-size: 3vw;
+  line-height: 1.25;
+}
+.f4 {
+  font-size: 4vw;
+  line-height: 1.25;
+}
+.f5 {
+  font-size: 5vw;
+  line-height: 1.25;
+}
+.f6 {
+  font-size: 6vw;
   line-height: 1.25;
 }
 
