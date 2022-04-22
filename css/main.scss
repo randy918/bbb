@@ -24,6 +24,15 @@ $colors: (
   border: none;
 }
 
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("../fonts/RobotoFlex.woff2");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../fonts/RobotoSlab-VariableFont_wght.woff2");
+}
+
 body {
   background: getColor(theBackground);
   font-family: "Overpass", sans-serif;

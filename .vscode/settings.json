@@ -13,6 +13,7 @@
     "statusBar.debuggingBackground": "#256066",
     "statusBar.debuggingForeground": "#e7e7e7",
     "tab.activeBorder": "#8b3b33"
-},
-  "peacock.color": "#662b25"
+  },
+  "peacock.color": "#662b25",
+  "liveServer.settings.port": 5501
 }
