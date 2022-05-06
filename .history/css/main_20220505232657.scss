@@ -37,7 +37,7 @@ $colors: (
 body {
   background: getColor(theBackground);
   font-family: "Overpass", sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 30px;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -76,7 +76,7 @@ body {
     box-shadow: 1px 1px 20px 0 black;
     left: 30vw;
     position: absolute;
-    top: 17vw;
+    top: 12vw;
 
     &:hover {
       background-color: getColor(theBrown);
