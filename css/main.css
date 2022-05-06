@@ -711,6 +711,12 @@ h6 {
   color: black;
 }
 
+.btn--volunteer {
+  display: block;
+  position: absolute;
+  left: 23vw;
+}
+
 .btn--volunteer:hover {
   background-color: #f02c50;
   color: black;
