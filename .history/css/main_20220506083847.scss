@@ -320,8 +320,7 @@ h6 {
 }
 
 .bolder {
-  font-family: "Roboto Flex Two", sans-serif;
-  font-variation-settings: "wght" 900;  
+  font-weight: 900;
 }
 .lighter {
   font-weight: 300;
@@ -1084,7 +1083,7 @@ h8 {
 
 h9 {
   font-family: "Roboto Flex Two", sans-serif;
-  font-variation-settings: "wght" 300;  
+  font
   color: getColor(theBackground);
 }
 
