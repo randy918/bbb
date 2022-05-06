@@ -646,7 +646,7 @@ h6 {
   position: absolute;
   text-align: center;
   text-decoration: none;
-  top: 116.5vw;
+  top: 111.5vw;
   transition: 0.3s;
   width: 30vw;
 }
@@ -673,7 +673,7 @@ h6 {
   text-decoration: none;
   position: absolute;
   font-weight: 00;
-  top: 116.5vw;
+  top: 111.5vw;
   left: 20vw;
   display: inline-block;
   border-radius: 1vw;

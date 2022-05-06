@@ -180,6 +180,8 @@ body {
   top: 352vw;
 }
 
+
+
 h1 {
   color: getColor(bitByBitRed);
   font-family: "Roboto Slab", serif;
@@ -296,6 +298,7 @@ h6 {
 .tight-bottom {
   margin-bottom: -24px;
 }
+
 
 .bolder {
   font-weight: 900;
@@ -503,12 +506,15 @@ h6 {
   }
 }
 
+
+
 //!  50522.2011         WRAPPER CENTER ATTEMPT
 
 .wrapper {
-  display: block;
-  margin: auto;
-  width: 70vw;
+
+    display: block;
+    margin: auto;
+    width: 70vw;
 }
 
 //!  42520.1033     NOT HOME USE
@@ -660,7 +666,7 @@ h6 {
   position: absolute;
   text-align: center;
   text-decoration: none;
-  top: 111.5vw;
+  top: 106.5vw;
   transition: 0.3s;
   width: 30vw;
 
@@ -689,7 +695,7 @@ h6 {
   text-decoration: none;
   position: absolute;
   font-weight: 00;
-  top: 111.5vw;
+  top: 116.5vw;
 
   left: 20vw;
   display: inline-block;
@@ -742,10 +748,13 @@ h6 {
 }
 
 .btn--volunteer {
-  display: block;
-  position: absolute;
-  left: 23vw;
+
+    display: block;
+    position: absolute;
+    left: 23vw;
+
 }
+
 
 .btn--volunteer:hover {
   background-color: getColor(bitByBitRed);
@@ -1243,6 +1252,7 @@ video {
   left: 0;
   top: 370vw;
 }
+
 
 #video-wrapper4 {
   .embed-container {
