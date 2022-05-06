@@ -1602,7 +1602,7 @@ video {
 .social-wrap__facebook {
   position: absolute;
   right: 5vw;
-  top: 49vw;
+  top: 69vw;
   width: 6vw;
   -webkit-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
@@ -1616,7 +1616,7 @@ video {
 .social-wrap__instagram {
   position: absolute;
   right: 5vw;
-  top: 57vw;
+  top: 77vw;
   width: 6vw;
   -webkit-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
