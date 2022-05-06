@@ -147,6 +147,18 @@ body {
   top: 225vw;
 }
 
+.box666 {
+  position: absolute;
+  left: 4vw;
+  top: 342vw;
+}
+
+.box777 {
+  position: absolute;
+  left: 4vw;
+  top: 352vw;
+}
+
 h1 {
   color: #f02c50;
   font-family: "Roboto Slab", serif;
@@ -1216,6 +1228,12 @@ video {
   position: absolute;
   left: 0;
   top: 245vw;
+}
+
+.box555__text--pic {
+  position: absolute;
+  left: 0;
+  top: 370vw;
 }
 
 #video-wrapper4 .embed-container {
