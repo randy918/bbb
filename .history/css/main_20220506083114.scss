@@ -24,6 +24,7 @@ $colors: (
   border: none;
 }
 
+
 @font-face {
   font-family: "Roboto Flex Two";
   src: url("../fonts/RobotoFlex-VariableFont_two.woff2");
@@ -118,6 +119,7 @@ body {
       top: 48.25vw;
     }
   }
+
 }
 
 #rodeodetails {
@@ -126,6 +128,7 @@ body {
 #horsemanshipdetails {
   margin-top: 270.5vw;
 }
+
 
 //!  41622.1707 H SERIES TEXT BEGINS
 
@@ -385,6 +388,7 @@ h6 {
   width: 100%;
   height: 100%;
 }
+
 
 .navbar {
   display: flex;
@@ -1082,7 +1086,7 @@ h8 {
 }
 
 h9 {
-  font-family: "Roboto Flex Two", sans-serif;
+    font-family: "Overpass", sans-serif;
   color: getColor(theBackground);
 }
 

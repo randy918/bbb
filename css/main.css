@@ -5,6 +5,12 @@
 }
 
 @font-face {
+  font-family: "Roboto Flex Two";
+  src: url("../fonts/RobotoFlex-VariableFont_two.woff2");
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Roboto Flex";
   src: url("../fonts/RobotoFlex.woff2");
   font-weight: -600;
@@ -1056,6 +1062,7 @@ h8 {
 }
 
 h9 {
+  font-family: "Roboto Flex Two", sans-serif;
   color: #f1e3d6;
 }
 
