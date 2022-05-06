@@ -7,6 +7,7 @@
 @font-face {
   font-family: "Roboto Flex";
   src: url("../fonts/RobotoFlex.woff2");
+  font-weight: -600;
 }
 
 @font-face {
@@ -185,7 +186,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Overpass", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   padding-top: 0vw;
   padding-bottom: 1vw;
   margin-bottom: 0vw;
@@ -202,15 +203,15 @@ h4 {
 
 h5 {
   color: #004f88;
-  font-family: "Alfa Slab One", serif;
-  font-weight: 300;
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
   line-height: 1;
   font-size: 4vw;
   text-decoration: none;
 }
 
 h6 {
-  font-family: "Overpass", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   padding-top: 0.75vw;
   margin-top: 0vw;
   padding-bottom: 1vw;
@@ -248,6 +249,10 @@ h6 {
   text-align: left;
   width: 70%;
   margin: auto;
+}
+
+.indent {
+  text-indent: 3vw;
 }
 
 .auto-margin {
@@ -482,11 +487,17 @@ h6 {
   margin-top: 38vw;
 }
 
+.wrapper {
+  display: block;
+  margin: auto;
+  width: 70vw;
+}
+
 .wish-1 {
   float: left;
   padding-right: 2vw;
   margin-top: 2vw;
-  margin-right: 2vw;
+  margin-left: 23vw;
   margin-bottom: 4vw;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
@@ -502,6 +513,18 @@ h6 {
   margin-top: 2vw;
   margin-right: 2vw;
   margin-bottom: 4vw;
+}
+
+.wish-sponsor {
+  float: left;
+  margin-bottom: 4vw;
+  margin-left: 23vw;
+  margin-top: 2vw;
+  padding-right: 2vw;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .brown-intro {
@@ -1111,8 +1134,8 @@ video {
 }
 
 .explanation {
+  font-family: "Roboto Slab";
   font-size: 0.55em;
-  font-weight: 500;
   left: 0;
   line-height: 1.35;
   opacity: 0;
