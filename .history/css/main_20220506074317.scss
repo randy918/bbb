@@ -99,29 +99,25 @@ body {
       top: 33.25vw;
     }
   }
-  &--horsemanship-home {
+  &--rodeo-home {
     box-shadow: 1px 1px 20px 0 #7f86b0;
-    left: 60vw;
+    left: 50vw;
     position: absolute;
-    top: 48vw;
+    top: 33vw;
 
     &:hover {
-      background-color: getColor(theBrown);
+      background-color: #952d50;
       color: white;
-      left: 60.25vw;
-      top: 48.25vw;
+      left: 50.25vw;
+      top: 33.25vw;
     }
   }
-
+  
 }
 
 #rodeodetails {
   margin-top: 5.5vw;
 }
-#horsemanshipdetails {
-  margin-top: 270.5vw;
-}
-
 
 //!  41622.1707 H SERIES TEXT BEGINS
 

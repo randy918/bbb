@@ -86,8 +86,27 @@ body {
   top: 33.25vw;
 }
 
+.bt--horsemanship-home {
+  -webkit-box-shadow: 1px 1px 20px 0 #7f86b0;
+          box-shadow: 1px 1px 20px 0 #7f86b0;
+  left: 60vw;
+  position: absolute;
+  top: 48vw;
+}
+
+.bt--horsemanship-home:hover {
+  background-color: #652a24;
+  color: white;
+  left: 60.25vw;
+  top: 48.25vw;
+}
+
 #rodeodetails {
   margin-top: 5.5vw;
+}
+
+#horsemanshipdetails {
+  margin-top: 270.5vw;
 }
 
 .box111 {
@@ -335,6 +354,13 @@ h6 {
 
 .headline3 {
   background-image: url("/images/soiree.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.headline4 {
+  background-image: url("/images/5-06-22.0725-1641x327-bbb-rodeo-camp-8.5x11.png");
   background-size: cover;
   width: 100%;
   height: 100%;
