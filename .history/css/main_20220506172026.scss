@@ -35,14 +35,9 @@ $colors: (
   src: url("../fonts/RobotoFlex.woff2");
   font-weight: 100 - 700;
 }
-//@font-face {
-//  font-family: "Roboto Slab";
-//  src: url("../fonts/RobotoSlab-VariableFont_wght.woff2");
-//}
-
 @font-face {
-    font-family: "Roboto Slab";
-    src: url("../fonts/RobotoSlab-Regular.woff2");
+  font-family: "Roboto Slab";
+  src: url("../fonts/RobotoSlab-VariableFont_wght.woff2");
 }
 
 body {
@@ -1554,7 +1549,7 @@ video {
     position: absolute;
     right: 5vw;
     top: 69vw;
-;;    width: 6vw;
+;    width: 6vw;
     transition: all 300ms ease-out;
     z-index: 700;
     &--other {
