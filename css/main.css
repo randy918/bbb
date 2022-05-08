@@ -5,9 +5,15 @@
 }
 
 @font-face {
+  font-family: "Roboto Slab";
+  src: url("../fonts/RobotoSlab-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Roboto Flex Two";
   src: url("../fonts/RobotoFlex-VariableFont_two.woff2");
-  font-style: normal;
 }
 
 @font-face {
@@ -16,14 +22,9 @@
   font-weight: -600;
 }
 
-@font-face {
-  font-family: "Roboto Slab";
-  src: url("../fonts/RobotoSlab-Regular.woff2");
-}
-
 body {
   background: #f1e3d6;
-  font-family: "Overpass", sans-serif;
+  font-family: "Roboto Flex Two", sans-serif;
   font-weight: 300;
   font-size: 30px;
   margin: 0 0 0 0;
@@ -186,10 +187,10 @@ body {
 
 h1 {
   color: #f02c50;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", cursive;
+  font-weight: 500;
+  font-style: normal;
   font-size: 7vw;
-  font-variation-settings: "wght" 400;
-  letter-spacing: 1.5px;
   line-height: 1.1;
   margin-bottom: -2vw;
   padding-bottom: -1vw;

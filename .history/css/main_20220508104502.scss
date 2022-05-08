@@ -23,17 +23,11 @@ $colors: (
   box-sizing: border-box;
   border: none;
 }
-@font-face {
-    font-family: "Roboto Slab";
-    src: url("../fonts/RobotoSlab-Medium.woff2");
-    font-weight: 500;
-  font-style: normal;
 
-}
 @font-face {
   font-family: "Roboto Flex Two";
   src: url("../fonts/RobotoFlex-VariableFont_two.woff2");
-  //font-style: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -46,7 +40,13 @@ $colors: (
 //  src: url("../fonts/RobotoSlab-VariableFont_wght.woff2");
 //}
 
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("../fonts/RobotoSlab-Medium.woff2");
+    font-weight: 500;
+  font-style: normal;
 
+}
 
 body {
   background: getColor(theBackground);
@@ -212,11 +212,11 @@ body {
 
 h1 {
   color: getColor(bitByBitRed);
-  font-family: "Roboto Slab", cursive;
+  font-family: "Roboto Slab", serif;
   font-weight: 500;
-  font-style: normal;
+  font-style: normal
   font-size: 7vw;
-;
+  letter-spacing: 0.5px;
   line-height: 1.1;
   margin-bottom: -2vw;
   padding-bottom: -1vw;
