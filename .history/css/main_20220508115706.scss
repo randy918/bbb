@@ -1627,7 +1627,7 @@ video {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
 
 
 .btn {
@@ -1640,7 +1640,7 @@ video {
   font-size: 3vw;
   font-weight: 00;
   margin-left: 6vw;
-  margin-top: 18vw;
+  margin-top: 8vw;
   padding: 10px 10px;
   position: absolute;
   text-align: center;
@@ -1686,95 +1686,7 @@ video {
   text-align: center;
   font-size: 3vw;
   margin-right: 6vw;
-  margin-top: 18vw;
-  padding: 10px 10px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-
-  &--volunteer {
-    text-decoration: none;
-    position: absolute;
-    font-weight: 300;
-    // top: 125.5vw;
-    display: inline-block;
-    border-radius: 1vw;
-    background-color: getColor(bitByBitBlue);
-    border: none;
-    width: 40vw;
-    color: white;
-    text-align: center;
-    font-size: 3vw;
-    margin-left: 6vw;
-    // margin-top: 15px;
-    padding: 10px 10px;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-}
-
-}
-
-
-@media only screen and (max-width: 500px) {
-
-
-.btn {
-  -webkit-transition: 0.3s;
-  background-color: getColor(bitByBitBlue);
-  border-radius: 1vw;
-  border: none;
-  color: white;
-  display: inline-block;
-  font-size: 3vw;
-  font-weight: 00;
-  margin-left: 6vw;
-  margin-top: 18vw;
-  padding: 10px 10px;
-  position: absolute;
-  text-align: center;
-  text-decoration: none;
-  top: 111.5vw;
-  transition: 0.3s;
-  width: 30vw;
-
-  &--volunteer {
-    -webkit-transition: 0.3s;
-    // margin-top: 15px;
-    // top: 125.5vw;
-    background-color: getColor(bitByBitBlue);
-    border-radius: 1vw;
-    border: none;
-    color: white;
-    display: inline-block;
-    font-size: 3vw;
-    font-weight: 300;
-    margin-left: 6vw;
-    padding: 10px 10px;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-    transition: 0.3s;
-    width: 40vw;
-  }
-}
-
-.btnTwo {
-  text-decoration: none;
-  position: absolute;
-  font-weight: 00;
-  top: 111.5vw;
-
-  left: 20vw;
-  display: inline-block;
-  border-radius: 1vw;
-  background-color: getColor(bitByBitBlue);
-  border: none;
-  width: 30vw;
-  color: white;
-  text-align: center;
-  font-size: 3vw;
-  margin-right: 6vw;
-  margin-top: 18vw;
+  margin-top: 8vw;
   padding: 10px 10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
