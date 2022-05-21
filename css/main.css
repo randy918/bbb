@@ -83,22 +83,22 @@ body {
           box-shadow: 1px 1px 20px 0 #7f86b0;
   left: 50vw;
   position: absolute;
-  top: 33vw;
+  top: 13vw;
 }
 
 .bt--rodeo-home:hover {
   background-color: #952d50;
   color: white;
   left: 50.25vw;
-  top: 33.25vw;
+  top: 13.25vw;
 }
 
 .bt--horsemanship-home {
   -webkit-box-shadow: 1px 1px 20px 0 #7f86b0;
           box-shadow: 1px 1px 20px 0 #7f86b0;
-  left: 60vw;
+  left: 60.5vw;
   position: absolute;
-  top: 48vw;
+  top: 28vw;
 }
 
 .bt--horsemanship-home:hover {
@@ -1603,7 +1603,7 @@ video {
 .social-wrap__facebook {
   position: absolute;
   right: 5vw;
-  top: 69vw;
+  top: 62vw;
   width: 6vw;
   -webkit-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
@@ -1617,7 +1617,7 @@ video {
 .social-wrap__instagram {
   position: absolute;
   right: 5vw;
-  top: 77vw;
+  top: 70vw;
   width: 6vw;
   -webkit-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
@@ -1625,6 +1625,20 @@ video {
 }
 
 .social-wrap__instagram--other {
+  top: 13vw;
+}
+
+.social-wrap__years {
+  position: absolute;
+  right: 1vw;
+  top: 46vw;
+  width: 14vw;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  z-index: 700;
+}
+
+.social-wrap__years--other {
   top: 13vw;
 }
 
@@ -1840,6 +1854,22 @@ video {
     padding: 10px 10px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    color: #f02c50;
+    font-family: "Roboto Slab", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7vw;
+    letter-spacing: -.125vw;
+    line-height: 1.1;
+    margin-bottom: -2vw;
+    padding-bottom: -1vw;
+    padding-left: 6vw;
+    padding-right: 4vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
