@@ -3,91 +3,63 @@ modules below approved: 0 -->
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/bqb8lmt.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i&display=swap"
-      rel="stylesheet"
-    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.typekit.net/bqb8lmt.css" />
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js" defer></script>
+        <script src="./js/moment.js" defer></script>
+        <script src="./js/myfunctions.js"></script>
+        <script src="./js/app.js" defer></script>
+        <script src="./js/TweenMax.min.js" defer></script>
+        <script src="./js/CSSPlugin.min.js" defer></script>
+        <script src="./js/snap.svg.js" defer></script>
+        <script src="./js/TimelineMax.min.js" defer></script>
+        <script src="./js/TweenMax.min.js" defer></script>
+        <script src="./js/CustomEase.min.js" defer></script>
+        <script src="./js/three.min.js" defer></script>
+        <link rel="style = stylesheet" href="css/main.css" />
+        <title>Bit by Bit</title>
+    </head>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-      defer
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"
-      defer
-    ></script>
-    <script src="./js/moment.js" defer></script>
-    <script src="./js/myfunctions.js"></script>
-    <script src="./js/app.js" defer></script>
-    <script src="./js/TweenMax.min.js" defer></script>
-    <script src="./js/CSSPlugin.min.js" defer></script>
-    <script src="./js/snap.svg.js" defer></script>
-    <!-- <script src="./js/OrbitControls.js" defer></script> -->
-    <script src="./js/TimelineMax.min.js" defer></script>
-    <script src="./js/TweenMax.min.js" defer></script>
-    <script src="./js/CustomEase.min.js" defer></script>
-    <script src="./js/three.min.js" defer></script>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-links">
+                <ul>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./index.html">Home </a>
+                    </li>
+                    <li>
+                        <a id="turned-on" class="turned-on-ltr" href="./events.html">Events</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./join.html">Participants</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./volunteer.html"
+                        >Volunteer</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./donate.html">Donate</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-ltr" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <link rel="style = stylesheet" href="css/main.css" />
-    <title>Participate at Bit By Bit</title>
-  </head>
-
-  <body>
-    <nav class="navbar">
-      <!-- <div class="byb-title">BIT-BY-BIT&nbsp&nbsp&nbsp</div> -->
-      <!-- <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a> -->
-      <div class="navbar-links">
-        <ul>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./index.html">Home </a>
-          </li>
-          <!-- <li>
-            <a class="nav-link nav-link-ltr" href="./events.html">Events</a>
-          </li> -->
-          <li>
-            <a id="turned-on" class="turned-on-ltr" href="./join.html"
-              >Participants</a
-            >
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./volunteer.html"
-              >Volunteer</a
-            >
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./about.html">About Us</a>
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./donate.html">Donate</a>
-          </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <header>
-      <div>
-        <!-- <img class = "logo" src="/images/bit-by-bit.svg" alt="Bit by Bit Logo animation" width ='40%'> -->
-        <svg
+        <header>
+            <div>
+                <svg
           class="logo"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
@@ -436,81 +408,90 @@ modules below approved: 0 -->
               </g>
             </g>
           </a>
-        </svg>
-      </div>
-    </header>
+                </svg>
+            </div>
+        </header>
 
-    <main>
-      <div id="slideshow">
-        <img src="/images/join-1.jpg" />
-        <img src="/images/join-2.jpg" />
-        <img src="/images/join-3.jpg" />
-      </div>
+        <main>
+            <div id="slideshow">
+                <img src="/images/events-2.jpg" />
+                <img src="/images/events-4.png" />
+                <img src="/images/events-3.jpg" />
+                <img src="/images/events-1.jpg" />
+                <img src="/images/events-5.jpg" />
+            </div>
 
-      <div></div>
+            <div></div>
 
-      <div class="address-strip">
-        <h9
-          >14674 S. Highway 169&nbsp • &nbspOologah, OK 74053&nbsp •
-          &nbsp918-371-1750&nbsp • &nbspMon-Thurs 9-5, Fri 9-noon
-        </h9>
-      </div>
+            <div class="address-strip">
+                <h9>14674 S. Highway 169&nbsp • &nbspOologah, OK 74053&nbsp •
+                &nbsp918-371-1750&nbsp • &nbspMon-Thurs 9-5, Fri 9-noon</h9>
+            </div>
 
-      <div>
-        <h1 class="center" style="margin-top: 3vw">
-          Do you know<br>someone interested<br>in riding at Bit by Bit?<br>
-          
-        </h1>
-        <h2><br></h2>
-        <h2 class="center-left indent">
-          Please download the following packet and send it to us by mail, fax,
-          or in person. We welcome participants of all ages and ability levels.
-          The participant packet has components which must be completed by the
-          participant or parent/legal guardian AND the participant's physician.
-          Once a packet is received, we will contact you to discuss a riding
-          time.&nbsp<br><br>
-        </h2>
-        <h2 class="center-left indent">Our address is: 14674 S. Highway 169, Oologah, OK 74053<br><br></h2>   
-          <h2 class="center-left indent">Or email your filled-out forms to lbarron@bitbybitok.org
-        </h2>
-        <br />
-      </div>
-      <div class="center">
-        <a
-          href="./downloads/Bit-by-Bit-Participation-Form.pdf"
-          id="1-Pdf"
-          class="btnTwo"
-          >Download Participant Forms</a
-        >
-        <a
-          href="mailto:lbarron@bitbybitok.org?subject=Submitting Filled-Out BitbyBit Participation Forms"
-          id="1-Pdf"
-          class="btn"
-          >Email Filled-Out Participant Forms</a
-        >
-      </div>
-      <!-- <div class = "brown-spacer">&nbsp</div> -->
-
-      <div class="social-wrap">
-        <a target="_blank" href="https://www.facebook.com/BitbyBitOK/">
-          <figure>
+            <div class="box111">
+                <h2 class="center" style="margin-bottom: -24px">
+                <br />Contact Linda Barron at 918-371-1750 for reservations or
+                sponsorship information.<br><br><br>
+            </h2>
+                  <h1 class="pink center" class="tight-bottom">Bit by Bit<br>Spring–Summer<br>2022 Events</h1>;
+            <br>
+        <h2 class="box222__text">
+       
             <img
-              class="social-wrap__facebook social-wrap__facebook--other"
-              src="/images/7-22-21.0800-facebook-SOCIAL-MEDIA-my-website.svg"
+                class="box444__text--pic"
+                src="/images/4-16-22-rodeo-camp-info.png"
+                style="float: left"
+                style="margin: 20px"
+                width="100%"
+                alt="Warning!"
             />
-          </figure>
+            <img
+                class="box555__text--pic"
+                src="/images//5-04-22.0838-bbb-horsemanship-camp-8.5x11-PRINT.jpg"
+                style="float: left"
+                style="margin: 20px"
+                width="100%"
+                alt="Warning!"
+            />
+
+
+        </h2>
+    </div class="center" >
+ 
+
+        <h2 class="box444 white medium lighter center">
+            <slab class="slab-font" style="margin-bottom:-1vw"><br>For more information, contact Bit by Bit</slab></h2>
+            <h2 class="box555 white" style="margin-bottom:-2vw">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspContact Linda Barron at 918-371-1750 or at lbarron@bitbybitok.org</h2>
+        <h2 class="box666 white medium lighter center">
+            <slab class="slab-font" style="margin-bottom:-1vw"><br>For more information, contact Bit by Bit</slab></h2>
+            <h2 class="box777 white" style="margin-bottom:-2vw">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspContact Linda Barron at 918-371-1750 or at lbarron@bitbybitok.org</h2>
+
+   
+            <div id="rodeodetails"></div>
+    </div>
+        <br /><br />
+            <div id="horsemanshipdetails"></div>
+
+    <div class="social-wrap">
+        <a target="_blank" href="https://www.facebook.com/BitbyBitOK/">
+            <figure>
+            <img
+                class="social-wrap__facebook social-wrap__facebook--other"
+                src="/images/7-22-21.0800-facebook-SOCIAL-MEDIA-my-website.svg"
+                />
+            </figure>
         </a>
         <a target="_blank" href="https://www.instagram.com/bitbybitok/">
-          <figure>
+            <figure>
             <img
-              class="social-wrap__instagram social-wrap__instagram--other"
-              src="/images/7-22-21.0800-instagram-SOCIAL-MEDIA-my-website.svg"
+                class="social-wrap__instagram social-wrap__instagram--other"
+                src="/images/7-22-21.0800-instagram-SOCIAL-MEDIA-my-website.svg"
             />
-          </figure>
+        </figure>
         </a>
-      </div>
-    </main>
+    </div>
+</main>
 
     <!-- <footer id="timeStamp"></footer> -->
-  </body>
+</body>
 </html>
