@@ -342,6 +342,10 @@ h6 {
   font-family: "Alfa Slab One", serif;
 }
 
+.brown {
+  color: rgb(101, 42, 36);
+}
+
 .headline2 {
   background-image: url("/images/5-22-22.1156-rodeo-banner-1641x327.png");
   background-size: cover;
@@ -1214,7 +1218,7 @@ video {
 .box444__text--pic {
   position: absolute;
   left: 0;
-  top: 91vw;
+  top: 85vw;
 }
 
 .box555__text--pic {
