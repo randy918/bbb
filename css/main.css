@@ -469,12 +469,12 @@ h6 {
   border: none;
   background-color: rgb(255, 103, 0);
   color: white;
-  padding: 14px 28px;
   border-radius: 20px;
   font-size: 1.5vw;
   cursor: pointer;
   text-align: center;
   margin: auto;
+  margin-top: -3vw;
   transition: 0.3s;
 }
 
