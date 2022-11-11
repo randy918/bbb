@@ -208,7 +208,8 @@ body {
 }
 
 h1 {
-  color: getColor (bitByBitRed);
+  color: getColor
+  (bitByBitRed);
   font-family: "Roboto Slab", cursive;
   font-weight: 500;
   font-style: normal;
@@ -1924,7 +1925,7 @@ video {
   }
 
   h1 {
-      color: getColor (bitByBitRed);
+      color: black;
       font-family: "Roboto Slab", cursive;
       font-weight: 500;
       font-style: normal;
