@@ -2177,12 +2177,8 @@ video {
         width: 100vw;
         padding: 0.15vw 2vw;
         padding-top: 1vw;
-        margin-top: 1vw;
-        left: 0vw;
-        box-sizing: border-box;
-
-
-        // position: absolute;
+          margin-top: 1vw;
+            position: absolute;
 
 
 
@@ -2193,96 +2189,96 @@ video {
         //   background-size: cover;
     }
 
-    // .byb-title:hover {
-    //     background-color: getColor(theOrange);
-    // }
+    .byb-title:hover {
+        background-color: getColor(theOrange);
+    }
 
-    // .navbar-links ul {
-    //     display: flex;
-    //     margin: 0;
-    //     padding-left: 4vw;
-    //     padding-right: 5vw;
-    // }
+    .navbar-links ul {
+        display: flex;
+        margin: 0;
+        padding-left: 4vw;
+        padding-right: 5vw;
+    }
 
-    // .navbar-links li {
-    //     list-style: none;
-    //     font-size: 2vw;
-    //     padding-left: 1.5vw;
-    //     padding-right: 1.5vw;
-    //     margin-left: -0.85vw;
-    //     margin-right: -0.85vw;
-    //     transition-duration: 250ms;
-    // }
+    .navbar-links li {
+        list-style: none;
+        font-size: 2vw;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        margin-left: -0.85vw;
+        margin-right: -0.85vw;
+        transition-duration: 250ms;
+    }
 
-    // .navbar-links li a {
-    //     text-decoration: none;
-    //     font-weight: 300; // weight of navbar
-    //     color: white;
-    //     padding: 1vw;
-    //     display: block;
-    // }
+    .navbar-links li a {
+        text-decoration: none;
+        font-weight: 300; // weight of navbar
+        color: white;
+        padding: 1vw;
+        display: block;
+    }
 
-    // #turned-on {
-    //     color: getColor(theOrange);
-    // }
+    #turned-on {
+        color: getColor(theOrange);
+    }
 
-    // .navbar-links li a:hover {}
+    .navbar-links li a:hover {}
 
-    // .nav-link {
-    //     text-decoration: none;
-    //     color: white;
-    //     display: inline-block;
-    //     position: relative;
-    // }
+    .nav-link {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        position: relative;
+    }
 
-    // #turned-on {
-    //     text-decoration: none;
-    //     color: getColor(bitByBitRed);
-    //     position: relative;
-    // }
+    #turned-on {
+        text-decoration: none;
+        color: getColor(bitByBitRed);
+        position: relative;
+    }
 
-    // .nav-link::before {
-    //     transition: 300ms;
-    //     height: 0.2vw;
-    //     content: "";
-    //     position: absolute;
-    //     left: 40%;
-    //     background-color: white; //color of underline
-    // }
+    .nav-link::before {
+        transition: 300ms;
+        height: 0.2vw;
+        content: "";
+        position: absolute;
+        left: 40%;
+        background-color: white; //color of underline
+    }
 
-    // #turned-on::before {
-    //     transition: 300ms;
-    //     height: 0.2vw;
-    //     content: "";
-    //     position: absolute;
-    //     left: 0%;
-    //     background-color: getColor(bitByBitRed); //color of underline
-    // }
+    #turned-on::before {
+        transition: 300ms;
+        height: 0.2vw;
+        content: "";
+        position: absolute;
+        left: 0%;
+        background-color: getColor(bitByBitRed); //color of underline
+    }
 
-    // //!  12520.1007     HOT AREA FOR UNDERLINING
-    // .nav-link-ltr::before {
-    //     content: "";
-    //     width: 0%;
-    //     bottom: 1vw;
-    // }
+    //!  12520.1007     HOT AREA FOR UNDERLINING
+    .nav-link-ltr::before {
+        content: "";
+        width: 0%;
+        bottom: 1vw;
+    }
 
-    // .turned-on-ltr::before {
-    //     content: "";
-    //     width: 100%;
-    //     bottom: 1vw;
-    // }
+    .turned-on-ltr::before {
+        content: "";
+        width: 100%;
+        bottom: 1vw;
+    }
 
-    // .nav-link-ltr:hover::before {
-    //     width: 100%;
-    //     color: getColor(theOrange);
-    //     left: 0;
-    // }
+    .nav-link-ltr:hover::before {
+        width: 100%;
+        color: getColor(theOrange);
+        left: 0;
+    }
 
-    // .turned-on-ltr:hover::before {
-    //     width: 100%;
-    //     color: getColor(theOrange);
-    //     left: 0;
-    // }
+    .turned-on-ltr:hover::before {
+        width: 100%;
+        color: getColor(theOrange);
+        left: 0;
+    }
 
     .announcement-front-button {
         display: block;
