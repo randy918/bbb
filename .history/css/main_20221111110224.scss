@@ -434,7 +434,7 @@ h6 {
 }
 
 .navbar {
-    // display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
@@ -446,7 +446,7 @@ h6 {
 }
 
 .navbar-links ul {
-    // display: flex;
+    display: flex;
     margin: 0;
     padding-left: 4vw;
     padding-right: 5vw;
@@ -2175,16 +2175,13 @@ video {
     .navbar {
         background: gold;
         width: 100vw;
-        height: 100vw;
-
         padding: 0.15vw 2vw;
         padding-top: 1vw;
         margin-top: 1vw;
-        left: -100vw;
+        left: -50vw;
         box-sizing: border-box;
-        transition: left 0.3s ease-in-out;
         .trigger:checked ~ & {
-left: 0;
+left: 
 
 
         }

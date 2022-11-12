@@ -434,7 +434,7 @@ h6 {
 }
 
 .navbar {
-    // display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
@@ -446,7 +446,7 @@ h6 {
 }
 
 .navbar-links ul {
-    // display: flex;
+    display: flex;
     margin: 0;
     padding-left: 4vw;
     padding-right: 5vw;
@@ -2508,7 +2508,7 @@ left: 0;
         border-radius: 1vw;
         border: none;
         color: white;
-        display: inline-block;
+        // display: inline-block;
         font-size: 3vw;
         font-weight: 00;
         margin-left: 6vw;

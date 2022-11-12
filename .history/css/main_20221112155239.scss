@@ -434,7 +434,7 @@ h6 {
 }
 
 .navbar {
-    // display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
@@ -446,7 +446,7 @@ h6 {
 }
 
 .navbar-links ul {
-    // display: flex;
+    display: flex;
     margin: 0;
     padding-left: 4vw;
     padding-right: 5vw;
@@ -2293,7 +2293,7 @@ left: 0;
     // }
 
     .announcement-front-button {
-        display: block;
+        // display: block;
         width: 60%;
         border: none;
         background-color: getColor(theOrange);

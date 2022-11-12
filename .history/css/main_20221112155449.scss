@@ -434,7 +434,7 @@ h6 {
 }
 
 .navbar {
-    // display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
@@ -446,7 +446,7 @@ h6 {
 }
 
 .navbar-links ul {
-    // display: flex;
+    display: flex;
     margin: 0;
     padding-left: 4vw;
     padding-right: 5vw;
@@ -2613,7 +2613,7 @@ left: 0;
     .toggle-button {
         top: 2.5vw;
         right: 4vw;
-        display: flex;
+        // display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 6vw;
