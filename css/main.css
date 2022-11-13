@@ -2063,6 +2063,7 @@ video {
   .navbar {
     background: rgb(101, 42, 36);
     width: 45vw;
+    border-radius: 0 0 3vw;
     padding: 0.15vw 2vw;
     padding-top: 1vw;
     position: absolute;
