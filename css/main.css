@@ -1689,6 +1689,8 @@ video {
     text-align: left;
   }
   header {
+    position: relative;
+    z-index: 10;
     height: 11vw;
   }
   .bt {
@@ -1896,7 +1898,9 @@ video {
   }
   li .bbb-logo,
 .trigger,
-.checkbox {
+.checkbox,
+.social-wrap__facebook--other,
+.social-wrap__instagram--other {
     display: none;
   }
   li .bbb-logo {
@@ -1906,6 +1910,20 @@ video {
     padding-top: 7vw;
     padding-bottom: 3vw;
     border-bottom-right-radius: 1.5vw;
+  }
+  li .bbb-insta {
+    display: block;
+    width: 7vw;
+    padding-left: 0.5vw;
+    padding-top: 7vw;
+    padding-bottom: 3vw;
+  }
+  li .bbb-fb {
+    display: block;
+    width: 7vw;
+    padding-left: 1vw;
+    padding-top: 7vw;
+    padding-bottom: 3vw;
   }
   .pink {
     color: rgb(240, 44, 80);
@@ -2004,16 +2022,21 @@ video {
     width: 100%;
     height: 100%;
   }
+  .trigger {
+    position: absolute;
+    z-index: 1000;
+  }
   .hamburger {
     cursor: pointer;
-    margin-right: 10px;
+    margin-left: 5vw;
+    margin-top: 3vw;
     float: left;
     display: inline;
   }
   .hamburger span {
-    height: 3px;
-    width: 30px;
-    background: black;
+    height: 0.5vw;
+    width: 8vw;
+    background: white;
     display: block;
     margin-bottom: 5px;
     position: relative;
@@ -2025,22 +2048,26 @@ video {
   }
   .trigger:checked ~ .hamburger span:last-child {
     transform: rotate(-45deg);
-    top: -8px;
+    top: -7px;
   }
   .trigger:checked ~ .hamburger span:nth-child(2) {
     opacity: 0;
   }
   .menu {
     cursor: pointer;
+    line-height: 11vw;
+    display: block;
+    color: white;
+    font-size: 5.5vw;
   }
   .navbar {
     background: rgb(101, 42, 36);
-    width: 100vw;
+    width: 45vw;
     padding: 0.15vw 2vw;
     padding-top: 1vw;
     position: absolute;
     box-sizing: border-box;
-    margin-top: 6vw;
+    margin-top: 0vw;
     left: -100vw;
     box-sizing: border-box;
     transition: left 0.3s ease-in-out;
@@ -2860,10 +2887,11 @@ video {
   }
   #slideshow {
     position: relative;
-    top: 2vw;
+    top: 4vw;
     width: 100vw;
     height: 50vw;
     overflow: hidden;
+    z-index: 5;
   }
   #slideshow img {
     position: absolute;
