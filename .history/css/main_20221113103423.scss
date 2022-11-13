@@ -312,11 +312,7 @@ display: none;
 
 }
 
-header {
 
-    height: 9vw;
-
-}
 
 
 .pink {
@@ -1818,13 +1814,6 @@ video {
 
     //!  41422.1002 BANNER BUTTONS  b u t t o n  m a s t e r ATTEMPT
 
-
-header {
-
-height: 11vw;
-
-}
-
     .bt {
         background-color: white;
         border-radius: 0.5vw;
@@ -2188,7 +2177,7 @@ border-bottom-right-radius: 1.5vw
 
 
     .brown {
-        background: getColor(theBrown)
+        color: getColor(theBrown)
     }
 
     //!  41422.1744 END OF    BT SERIES END
@@ -2219,10 +2208,10 @@ border-bottom-right-radius: 1.5vw
 
     .trigger {
 
+background: getColor(theBrown)
     }
 
    .hamburger {
-
   cursor: pointer;
   margin-right: 10px;
   float: left;
@@ -2257,7 +2246,6 @@ border-bottom-right-radius: 1.5vw
 
     .menu {
         cursor: pointer;
-
     }
 
     .navbar {
@@ -3276,7 +3264,6 @@ border-bottom-right-radius: 1.5vw
 
     #slideshow {
         position: relative;
-        top: 2vw;
         width: 100vw;
         height: 50vw;
         overflow: hidden;

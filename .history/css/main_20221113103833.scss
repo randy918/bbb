@@ -312,11 +312,7 @@ display: none;
 
 }
 
-header {
 
-    height: 9vw;
-
-}
 
 
 .pink {
@@ -1807,7 +1803,7 @@ video {
 
 @media only screen and (max-width: 400px) {
     body {
-        background: getColor(theBackground);
+        background: getColor(t);
         font-family: "Roboto Flex Two", sans-serif;
         font-weight: 300;
         font-size: 30px;
@@ -1817,13 +1813,6 @@ video {
     }
 
     //!  41422.1002 BANNER BUTTONS  b u t t o n  m a s t e r ATTEMPT
-
-
-header {
-
-height: 11vw;
-
-}
 
     .bt {
         background-color: white;
@@ -2188,7 +2177,7 @@ border-bottom-right-radius: 1.5vw
 
 
     .brown {
-        background: getColor(theBrown)
+        color: getColor(theBrown)
     }
 
     //!  41422.1744 END OF    BT SERIES END
@@ -2222,6 +2211,7 @@ border-bottom-right-radius: 1.5vw
     }
 
    .hamburger {
+    background: getColor(theBrown)
 
   cursor: pointer;
   margin-right: 10px;
@@ -2257,7 +2247,6 @@ border-bottom-right-radius: 1.5vw
 
     .menu {
         cursor: pointer;
-
     }
 
     .navbar {
@@ -3276,7 +3265,6 @@ border-bottom-right-radius: 1.5vw
 
     #slideshow {
         position: relative;
-        top: 2vw;
         width: 100vw;
         height: 50vw;
         overflow: hidden;

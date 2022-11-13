@@ -246,8 +246,12 @@ h6 {
   color: rgb(101, 42, 36);
 }
 
-li .bbb-logo, .trigger, .checkbox {
+li .bbb-logo, .trigger, .checkbox, .hamburger, .menu {
   display: none;
+}
+
+header {
+  height: 9vw;
 }
 
 .pink {
@@ -1684,6 +1688,9 @@ video {
     padding: 0 0 0 0;
     text-align: left;
   }
+  header {
+    height: 11vw;
+  }
   .bt {
     background-color: white;
     border-radius: 0.5vw;
@@ -1887,6 +1894,11 @@ video {
     font-style: normal;
     color: rgb(101, 42, 36);
   }
+  li .bbb-logo,
+.trigger,
+.checkbox {
+    display: none;
+  }
   li .bbb-logo {
     display: block;
     width: 30vw;
@@ -1894,11 +1906,6 @@ video {
     padding-top: 7vw;
     padding-bottom: 3vw;
     border-bottom-right-radius: 1.5vw;
-  }
-  li .bbb-logo,
-.trigger,
-.checkbox {
-    display: block;
   }
   .pink {
     color: rgb(240, 44, 80);
@@ -1977,7 +1984,7 @@ video {
     font-family: "Alfa Slab One", serif;
   }
   .brown {
-    color: rgb(101, 42, 36);
+    background: rgb(101, 42, 36);
   }
   .headline2 {
     background-image: url("/images/5-22-22.1156-rodeo-banner-1641x327.png");
@@ -1999,25 +2006,26 @@ video {
   }
   .hamburger {
     cursor: pointer;
-    margin-right: 1vw;
+    margin-right: 10px;
     float: left;
+    display: inline;
   }
   .hamburger span {
-    height: 0.5vw;
-    width: 3vw;
+    height: 3px;
+    width: 30px;
     background: black;
     display: block;
-    margin-bottom: 0.5vw;
+    margin-bottom: 5px;
     position: relative;
     transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
   .trigger:checked ~ .hamburger span:first-child {
-    transfer: rotate(45deg);
-    top: 1vw;
+    transform: rotate(45deg);
+    top: 8px;
   }
   .trigger:checked ~ .hamburger span:last-child {
-    transfer: rotate(-45deg);
-    top: 1vw;
+    transform: rotate(-45deg);
+    top: -8px;
   }
   .trigger:checked ~ .hamburger span:nth-child(2) {
     opacity: 0;
@@ -2032,9 +2040,10 @@ video {
     padding-top: 1vw;
     position: absolute;
     box-sizing: border-box;
-    margin-top: 0vw;
-    left: 0vw;
+    margin-top: 6vw;
+    left: -100vw;
     box-sizing: border-box;
+    transition: left 0.3s ease-in-out;
     z-index: 100;
   }
   .trigger:checked ~ .navbar {
@@ -2851,6 +2860,7 @@ video {
   }
   #slideshow {
     position: relative;
+    top: 2vw;
     width: 100vw;
     height: 50vw;
     overflow: hidden;
@@ -3096,7 +3106,7 @@ video {
     z-index: 700;
   }
   .social-wrap__facebook--other {
-    top: 105vw;
+    top: 109vw;
     left: 20vw;
   }
   .social-wrap__instagram {
@@ -3113,7 +3123,7 @@ video {
   .social-wrap__instagram-others {
     position: absolute;
     left: 8vw;
-    top: 105vw;
+    top: 109vw;
     width: 6vw;
     transition: all 300ms ease-out;
     z-index: 700;

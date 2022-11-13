@@ -305,18 +305,14 @@ h6 {
     color: getColor(theBrown);
 }
 
-li .bbb-logo, .trigger, .checkbox, .hamburger, .menu {
+li .bbb-logo, .trigger, .checkbox {
 
 display: none;
 
 
 }
 
-header {
 
-    height: 9vw;
-
-}
 
 
 .pink {
@@ -1818,13 +1814,6 @@ video {
 
     //!  41422.1002 BANNER BUTTONS  b u t t o n  m a s t e r ATTEMPT
 
-
-header {
-
-height: 11vw;
-
-}
-
     .bt {
         background-color: white;
         border-radius: 0.5vw;
@@ -2070,11 +2059,7 @@ height: 11vw;
         font-style: normal;
         color: getColor(theBrown);
     }
-li .bbb-logo,
-.trigger,
-.checkbox {
-    display: none;
-}
+
 li .bbb-logo {
     display: block;
     width: 30vw;
@@ -2083,7 +2068,11 @@ li .bbb-logo {
     padding-bottom: 3vw;
 border-bottom-right-radius: 1.5vw
 }
-
+li .bbb-logo,
+.trigger,
+.checkbox {
+    display: block;
+}
 
 
     .pink {
@@ -2188,7 +2177,7 @@ border-bottom-right-radius: 1.5vw
 
 
     .brown {
-        background: getColor(theBrown)
+        color: getColor(theBrown)
     }
 
     //!  41422.1744 END OF    BT SERIES END
@@ -2219,45 +2208,43 @@ border-bottom-right-radius: 1.5vw
 
     .trigger {
 
+        // display: none;
+
     }
 
-   .hamburger {
+    .hamburger {
 
-  cursor: pointer;
-  margin-right: 10px;
-  float: left;
-  display: inline;
+        cursor: pointer;
+        margin-right: 1vw;
+        float: left;
 
-  span {
-    height: 3px;
-    width: 30px;
-    background: black;
-    display: block;
-    margin-bottom: 5px;
-    position: relative;
-    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out,
-      opacity 0.3s ease-in-out;
+        span {
+            height: .5vw;
+            width: 3vw;
+            background: black;
+            display: block;
+            margin-bottom: .5vw;
+            position: relative;
+            transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, opacity 0.3s ease-in-out;
 
-    .trigger:checked ~ &:first-child {
-      transform: rotate(45deg);
-      top: 8px;
+            .trigger:checked~&:first-child {
+                transfer: rotate(45deg);
+                top: 1vw;
+            }
+
+            .trigger:checked~&:last-child {
+                transfer: rotate(-45deg);
+                top: 1vw;
+            }
+
+            .trigger:checked~&:nth-child(2) {
+                opacity: 0;
+            }
+        }
     }
-
-    .trigger:checked ~ &:last-child {
-      transform: rotate(-45deg);
-      top: -8px;
-    }
-
-    .trigger:checked ~ &:nth-child(2) {
-      opacity: 0;
-    }
-  }
-}
-
 
     .menu {
         cursor: pointer;
-
     }
 
     .navbar {
@@ -2267,10 +2254,9 @@ border-bottom-right-radius: 1.5vw
         padding-top: 1vw;
         position: absolute;
         box-sizing: border-box;
-        margin-top: 6vw;
-        left: -100vw;
+        margin-top: 0vw;
+        left: -0vw;
         box-sizing: border-box;
-        transition: left 0.3s ease-in-out;
         z-index: 100;
 
         .trigger:checked~& {
@@ -2311,7 +2297,6 @@ border-bottom-right-radius: 1.5vw
     .navbar-links ul {
         display: block;
         margin: 0;
-        
         padding-left: 4vw;
         padding-right: 5vw;
     }
@@ -3276,7 +3261,6 @@ border-bottom-right-radius: 1.5vw
 
     #slideshow {
         position: relative;
-        top: 2vw;
         width: 100vw;
         height: 50vw;
         overflow: hidden;
@@ -3494,7 +3478,7 @@ border-bottom-right-radius: 1.5vw
             z-index: 700;
 
             &--other {
-                top: 109vw;
+                top: 105vw;
                 left: 20vw;
             }
         }
@@ -3515,7 +3499,7 @@ border-bottom-right-radius: 1.5vw
         &__instagram-others {
             position: absolute;
             left: 8vw;
-            top:109vw;
+            top:10vw;
             width: 6vw;
             transition: all 300ms ease-out;
             z-index: 700;
