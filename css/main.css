@@ -28,6 +28,33 @@ body {
   text-align: left;
 }
 
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 2vw;
+  grid-row-gap: 0px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 4vw;
+  padding: 0vw;
+  font-size: 2.5vw;
+}
+.parent__vchild {
+  background: rgba(101, 42, 36, 0.1);
+  color: rgb(101, 42, 36);
+  padding: 3vw;
+  border-radius: 1vw;
+}
+
+.vchild-bold {
+  color: rgb(240, 44, 80);
+  font-size: 4vw;
+  line-height: 1.1;
+  font-family: "Roboto Slab", cursive;
+  font-weight: 500;
+}
+
 .bt {
   background-color: white;
   border-radius: 0.5vw;
@@ -100,7 +127,7 @@ body {
 
 .box111 {
   padding: 0;
-  padding-top: 0vw;
+  padding-top: 3vw;
   margin-top: 0;
   color: get;
 }
@@ -125,7 +152,7 @@ body {
   letter-spacing: 1.5;
 }
 .box111__text {
-  width: 75vw;
+  width: 85vw;
 }
 .box111__text--pink {
   color: rgb(240, 44, 80);
@@ -252,6 +279,10 @@ li .bbb-logo, .trigger, .checkbox, .hamburger, .menu {
 
 header {
   height: 9vw;
+}
+
+.h2__modified {
+  font-size: 3vw;
 }
 
 .pink {
@@ -494,13 +525,14 @@ header {
 }
 
 .address-strip {
-  height: 3vw;
+  height: 10vw;
   background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
   background-size: cover;
   font-size: 2vw;
   font-weight: 300;
+  padding-top: 1vw;
   text-align: center;
-  line-height: 1.66;
+  line-height: 1.25;
 }
 
 .slogan {
@@ -1688,6 +1720,31 @@ video {
     padding: 0 0 0 0;
     text-align: left;
   }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 0px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 4vw;
+    padding: 0vw;
+    font-size: 2.5vw;
+  }
+  .parent__vchild {
+    background: rgba(101, 42, 36, 0.1);
+    color: rgb(101, 42, 36);
+    padding: 3vw;
+    border-radius: 1vw;
+  }
+  .vchild-bold {
+    color: rgb(240, 44, 80);
+    font-size: 4vw;
+    line-height: 1.1;
+    font-family: "Roboto Slab", cursive;
+    font-weight: 500;
+  }
   header {
     position: relative;
     z-index: 10;
@@ -1787,7 +1844,7 @@ video {
     letter-spacing: 1.5;
   }
   .box111__text {
-    width: 75vw;
+    width: 85vw;
   }
   .box111__text--pink {
     color: rgb(240, 44, 80);
@@ -1833,9 +1890,11 @@ video {
     font-family: "Roboto Flex", serif;
     font-weight: 500;
     color: rgb(101, 42, 36);
-    font-size: 2.25vw;
-    padding-left: 6vw;
-    padding-right: 4vw;
+    font-size: 4.25vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
     padding-top: 0;
     margin: auto;
   }
@@ -2184,13 +2243,15 @@ video {
     background-color: rgb(101, 42, 36);
   }
   .address-strip {
-    height: 3vw;
+    padding-top: 2vw;
+    margin-bottom: 6vw;
+    height: 19vw;
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
     background-size: cover;
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 300;
     text-align: center;
-    line-height: 1.66;
+    line-height: 1.25;
   }
   .slogan {
     position: absolute;
