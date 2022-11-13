@@ -2173,7 +2173,8 @@ video {
     }
 
     .navbar {
-        background: getColor(theBrown);
+        display: block;
+        background: gold;
         width: 100vw;
         padding: 0.15vw 2vw;
         padding-top: 1vw;
@@ -2197,30 +2198,30 @@ video {
     //     background-color: getColor(theOrange);
     // }
 
-    .navbar-links ul {
-        display: block;
-        margin: 0;
-        padding-left: 4vw;
-        padding-right: 5vw;
-    }
+    // .navbar-links ul {
+    //     display: flex;
+    //     margin: 0;
+    //     padding-left: 4vw;
+    //     padding-right: 5vw;
+    // }
 
-    .navbar-links li {
-        list-style: none;
-        font-size: 6vw;
-        padding-left: 1.5vw;
-        padding-right: 1.5vw;
-        margin-left: -0.85vw;
-        margin-right: -0.85vw;
-        transition-duration: 250ms;
-    }
+    // .navbar-links li {
+    //     list-style: none;
+    //     font-size: 2vw;
+    //     padding-left: 1.5vw;
+    //     padding-right: 1.5vw;
+    //     margin-left: -0.85vw;
+    //     margin-right: -0.85vw;
+    //     transition-duration: 250ms;
+    // }
 
-    .navbar-links li a {
-        text-decoration: none;
-        font-weight: 300; // weight of navbar
-        color: white;
-        padding: 1vw;
-        display: block;
-    }
+    // .navbar-links li a {
+    //     text-decoration: none;
+    //     font-weight: 300; // weight of navbar
+    //     color: white;
+    //     padding: 1vw;
+    //     display: block;
+    // }
 
     // #turned-on {
     //     color: getColor(theOrange);

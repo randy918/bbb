@@ -1667,7 +1667,7 @@ video {
     opacity: 1.4;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   body {
     background: rgb(241, 227, 214);
     font-family: "Roboto Flex Two", sans-serif;
@@ -1978,13 +1978,35 @@ video {
     height: 100%;
   }
   .navbar {
-    background: gold;
+    background: rgb(101, 42, 36);
     width: 100vw;
     padding: 0.15vw 2vw;
     padding-top: 1vw;
     margin-top: 1vw;
     left: 0vw;
     box-sizing: border-box;
+  }
+  .navbar-links ul {
+    display: block;
+    margin: 0;
+    padding-left: 4vw;
+    padding-right: 5vw;
+  }
+  .navbar-links li {
+    list-style: none;
+    font-size: 6vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    margin-left: -0.85vw;
+    margin-right: -0.85vw;
+    transition-duration: 250ms;
+  }
+  .navbar-links li a {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    padding: 1vw;
+    display: block;
   }
   .announcement-front-button {
     display: block;

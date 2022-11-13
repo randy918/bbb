@@ -2173,7 +2173,7 @@ video {
     }
 
     .navbar {
-        background: getColor(theBrown);
+        background: gold;
         width: 100vw;
         padding: 0.15vw 2vw;
         padding-top: 1vw;
@@ -2198,7 +2198,7 @@ video {
     // }
 
     .navbar-links ul {
-        display: block;
+        display: flex;
         margin: 0;
         padding-left: 4vw;
         padding-right: 5vw;
@@ -2206,7 +2206,7 @@ video {
 
     .navbar-links li {
         list-style: none;
-        font-size: 6vw;
+        font-size: 2vw;
         padding-left: 1.5vw;
         padding-right: 1.5vw;
         margin-left: -0.85vw;
