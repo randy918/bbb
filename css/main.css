@@ -1678,7 +1678,7 @@ video {
     opacity: 1.4;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   body {
     background: rgb(241, 227, 214);
     font-family: "Roboto Flex Two", sans-serif;
@@ -2887,7 +2887,7 @@ video {
   }
   #slideshow {
     position: relative;
-    top: 4vw;
+    top: 0vw;
     width: 100vw;
     height: 50vw;
     overflow: hidden;
@@ -2904,6 +2904,9 @@ video {
     opacity: 0;
     transition: opacity, transform;
     transition-duration: 5s, 10s;
+  }
+  .brown-strip {
+    background: rgb(101, 42, 36);
   }
   #slideshow img {
     transform-origin: bottom left;
