@@ -2032,7 +2032,7 @@ video {
     padding-top: 1vw;
     position: absolute;
     box-sizing: border-box;
-    margin-top: 1vw;
+    margin-top: 0vw;
     left: 0vw;
     box-sizing: border-box;
     z-index: 100;
