@@ -246,6 +246,10 @@ h6 {
   color: rgb(101, 42, 36);
 }
 
+li .bbb-logo {
+  display: none;
+}
+
 .pink {
   color: rgb(240, 44, 80);
 }
@@ -370,6 +374,8 @@ h6 {
 
 .navbar {
   display: flex;
+  position: relative;
+  z-index: 500;
   justify-content: space-between;
   align-items: center;
   background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
@@ -1320,11 +1326,12 @@ video {
 
 .logo {
   position: absolute;
+  top: 4.5vw;
   transition: all 1s;
   transform-origin: 0% 0%;
   width: 30vw;
   border-radius: 0 0 1vw;
-  z-index: 100;
+  z-index: 10;
 }
 
 .class {
@@ -1880,6 +1887,12 @@ video {
     font-style: normal;
     color: rgb(101, 42, 36);
   }
+  li .bbb-logo {
+    display: block;
+    width: 30vw;
+    padding-top: 6vw;
+    border-bottom-right-radius: 1.5vw;
+  }
   .pink {
     color: rgb(240, 44, 80);
   }
@@ -2013,7 +2026,7 @@ video {
     position: absolute;
     box-sizing: border-box;
     margin-top: 1vw;
-    left: -80vw;
+    left: 0vw;
     box-sizing: border-box;
     z-index: 100;
   }
@@ -2024,6 +2037,8 @@ video {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-bottom: 4vw;
+    padding-bottom: 40vw;
   }
   .navbar ul li {
     margin-bottom: 2vw;
@@ -2866,6 +2881,7 @@ video {
   }
   .logo {
     position: absolute;
+    display: none;
     transition: all 1s;
     transform-origin: 0% 0%;
     width: 30vw;

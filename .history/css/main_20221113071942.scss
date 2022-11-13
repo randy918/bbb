@@ -305,7 +305,7 @@ h6 {
     color: getColor(theBrown);
 }
 
-li .bbb-logo {
+li.bbb-logo {
 
 display: none;
 
@@ -2058,13 +2058,6 @@ video {
         color: getColor(theBrown);
     }
 
-li .bbb-logo {
-    display: block;
-    width: 30vw;
-    padding-top: 6vw;
-border-bottom-right-radius: 1.5vw
-}
-
     .pink {
         color: getColor(bitByBitRed);
     }
@@ -2257,10 +2250,6 @@ border-bottom-right-radius: 1.5vw
             list-style-type: none;
             margin: 0;
             padding: 0;
-                padding-bottom: 4vw;
-                padding-bottom: 40vw;
-
-
 
             li {
                 margin-bottom: 2vw;

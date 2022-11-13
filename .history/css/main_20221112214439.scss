@@ -305,14 +305,6 @@ h6 {
     color: getColor(theBrown);
 }
 
-li .bbb-logo {
-
-display: none;
-
-
-}
-
-
 .pink {
     color: getColor(bitByBitRed);
 }
@@ -420,7 +412,6 @@ display: none;
 
 //!  41422.1744 END OF    BT SERIES END
 
-
 .headline2 {
     background-image: url("/images/5-22-22.1156-rodeo-banner-1641x327.png");
     background-size: cover;
@@ -444,12 +435,11 @@ display: none;
 
 .navbar {
     display: flex;
-    position: relative;
-    z-index: 500;
     justify-content: space-between;
     align-items: center;
     background-image: url("/images/1-25-20.0902-wooden-shutterstock_755924149.jpg");
     background-size: cover;
+    z-index: ;
 }
 
 .byb-title:hover {
@@ -461,8 +451,6 @@ display: none;
     margin: 0;
     padding-left: 4vw;
     padding-right: 5vw;
-  
-
 }
 
 .navbar-links li {
@@ -2058,13 +2046,6 @@ video {
         color: getColor(theBrown);
     }
 
-li .bbb-logo {
-    display: block;
-    width: 30vw;
-    padding-top: 6vw;
-border-bottom-right-radius: 1.5vw
-}
-
     .pink {
         color: getColor(bitByBitRed);
     }
@@ -2245,7 +2226,7 @@ border-bottom-right-radius: 1.5vw
         position: absolute;
         box-sizing: border-box;
         margin-top: 1vw;
-        left: -0vw;
+        left: -80vw;
         box-sizing: border-box;
         z-index: 100;
 
@@ -2257,10 +2238,6 @@ border-bottom-right-radius: 1.5vw
             list-style-type: none;
             margin: 0;
             padding: 0;
-                padding-bottom: 4vw;
-                padding-bottom: 40vw;
-
-
 
             li {
                 margin-bottom: 2vw;
