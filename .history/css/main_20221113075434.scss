@@ -305,14 +305,12 @@ h6 {
     color: getColor(theBrown);
 }
 
-li .bbb-logo, .trigger, .checkbox {
+li .bbb-logo {
 
 display: none;
 
 
 }
-
-
 
 
 .pink {
@@ -2064,14 +2062,9 @@ li .bbb-logo {
     display: block;
     width: 30vw;
     padding-left: .5vw;
-    padding-top: 7vw;
+    padding-top: 6vw;
     padding-bottom: 3vw;
 border-bottom-right-radius: 1.5vw
-}
-li .bbb-logo,
-.trigger,
-.checkbox {
-    display: block;
 }
 
 
@@ -3478,8 +3471,8 @@ li .bbb-logo,
             z-index: 700;
 
             &--other {
-                top: 105vw;
-                left: 20vw;
+                top: 101vw;
+                left: 18vw;
             }
         }
 
@@ -3499,7 +3492,7 @@ li .bbb-logo,
         &__instagram-others {
             position: absolute;
             left: 8vw;
-            top:105vw;
+            top:101vw;
             width: 6vw;
             transition: all 300ms ease-out;
             z-index: 700;

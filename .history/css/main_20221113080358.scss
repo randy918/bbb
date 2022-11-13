@@ -305,7 +305,7 @@ h6 {
     color: getColor(theBrown);
 }
 
-li .bbb-logo, .trigger, .checkbox {
+li .bbb-logo, .trigger, checkbox {
 
 display: none;
 
@@ -2067,11 +2067,6 @@ li .bbb-logo {
     padding-top: 7vw;
     padding-bottom: 3vw;
 border-bottom-right-radius: 1.5vw
-}
-li .bbb-logo,
-.trigger,
-.checkbox {
-    display: block;
 }
 
 

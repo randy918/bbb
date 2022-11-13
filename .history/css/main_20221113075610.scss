@@ -305,14 +305,12 @@ h6 {
     color: getColor(theBrown);
 }
 
-li .bbb-logo, .trigger, .checkbox {
+li .bbb-logo {
 
 display: none;
 
 
 }
-
-
 
 
 .pink {
@@ -2068,11 +2066,6 @@ li .bbb-logo {
     padding-bottom: 3vw;
 border-bottom-right-radius: 1.5vw
 }
-li .bbb-logo,
-.trigger,
-.checkbox {
-    display: block;
-}
 
 
     .pink {
@@ -3478,8 +3471,8 @@ li .bbb-logo,
             z-index: 700;
 
             &--other {
-                top: 105vw;
-                left: 20vw;
+                top: 95vw;
+                left: 18vw;
             }
         }
 
