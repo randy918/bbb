@@ -16,7 +16,7 @@ $colors: (bg: rgba(55, 66, 76, 1),
     bbb2-RedMyMind: rgba(143, 57, 56, 1),
     bbb2-SnowyPine: rgba(226, 223, 216, 1),
     bbb2-Basswood: rgba(188, 166, 142, 1),
-    bbb2-CompassBlue: rgba(51, 66, 87, 1),
+    bbb2-CompassBlue: rgba(5, 1),
 );
 
 @function getColor($color-name) {
@@ -2187,24 +2187,24 @@ video {
     }
 
     li .bbb-insta {
-        position: relative;
-        bottom: 0vw;
-        padding-top: 2vw;
+position: relative;
+bottom: 0vw;
+padding-top: 2vw;
         display: block;
         width: 7vw;
         padding-left: .5vw;
-
+      
 
     }
 
     li .bbb-fb {
-        position: relative;
-        left: 10vw;
-        bottom: 11vw;
+position: relative;
+left: 10vw;
+bottom: 11vw;
         display: block;
         width: 8vw;
         padding-left: 1vw;
-
+        
 
     }
 
@@ -2414,9 +2414,9 @@ video {
             list-style-type: none;
             margin: 0;
             padding: 0;
-
+            
             // padding-bottom: 4vw;
-
+    
 
 
 
