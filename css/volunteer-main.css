@@ -1975,18 +1975,20 @@ video {
     border-bottom-right-radius: 1.5vw;
   }
   li .bbb-insta {
+    position: relative;
+    bottom: 0vw;
+    padding-top: 2vw;
     display: block;
     width: 7vw;
     padding-left: 0.5vw;
-    padding-top: 7vw;
-    padding-bottom: 3vw;
   }
   li .bbb-fb {
+    position: relative;
+    left: 10vw;
+    bottom: 11vw;
     display: block;
-    width: 7vw;
+    width: 8vw;
     padding-left: 1vw;
-    padding-top: 7vw;
-    padding-bottom: 3vw;
   }
   .pink {
     color: rgb(240, 44, 80);
@@ -2144,8 +2146,6 @@ video {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-bottom: 4vw;
-    padding-bottom: 40vw;
   }
   .navbar ul li {
     margin-bottom: 2vw;
