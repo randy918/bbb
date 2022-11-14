@@ -2190,7 +2190,7 @@ video {
   }
   #turned-on {
     text-decoration: none;
-    color: rgb(240, 44, 80);
+    color: rgb(255, 103, 0);
     position: relative;
   }
   .nav-link::before {
@@ -2207,7 +2207,7 @@ video {
     content: "";
     position: absolute;
     left: 0%;
-    background-color: rgb(240, 44, 80);
+    background-color: rgb(255, 103, 0);
   }
   .nav-link-ltr::before {
     content: "";
