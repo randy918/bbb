@@ -446,12 +446,10 @@ header {
   text-decoration: none;
   font-weight: 300;
   color: rgb(51, 66, 87);
+  font-family: roboto, sans-serif;
+  font-weight: 500;
   padding: 1vw;
   display: block;
-}
-
-#turned-on {
-  color: rgb(255, 103, 0);
 }
 
 .nav-link {
@@ -2122,6 +2120,8 @@ video {
   .menu {
     cursor: pointer;
     line-height: 11vw;
+    font-family: roboto, sans-serif;
+    font-weight: 400;
     display: block;
     color: rgb(51, 66, 87);
     font-size: 5.5vw;
@@ -2181,6 +2181,8 @@ video {
     text-decoration: none;
     font-weight: 300;
     color: rgb(51, 66, 87);
+    font-family: roboto, sans-serif;
+    font-weight: 400;
     padding: 1vw;
     display: block;
   }
@@ -2200,7 +2202,7 @@ video {
   }
   .nav-link::before {
     transition: 300ms;
-    height: 0.2vw;
+    height: 0.5vw;
     content: "";
     position: absolute;
     left: 40%;
@@ -2208,7 +2210,7 @@ video {
   }
   #turned-on::before {
     transition: 300ms;
-    height: 0.2vw;
+    height: 0.5vw;
     content: "";
     position: absolute;
     left: 0%;

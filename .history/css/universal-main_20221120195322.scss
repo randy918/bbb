@@ -2501,7 +2501,7 @@ font-weight: 400;
 
     .nav-link::before {
         transition: 300ms;
-        height: 0.5vw;
+        height: 0.2vw;
         content: "";
         position: absolute;
         left: 40%;
@@ -2510,7 +2510,7 @@ font-weight: 400;
 
     #turned-on::before {
         transition: 300ms;
-        height: 0.5vw;
+        height: 0.2vw;
         content: "";
         position: absolute;
         left: 0%;

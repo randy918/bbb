@@ -540,7 +540,7 @@ header {
     font-weight: 300; // weight of navbar
     color: getColor(bbb2-CompassBlue);
     font-family: roboto, sans-serif;
-    font-weight: 500;
+    font-weight: 500
     padding: 1vw;
     display: block;
 }
@@ -2474,8 +2474,6 @@ font-weight: 400;
         text-decoration: none;
         font-weight: 300; // weight of navbar
         color: getColor(bbb2-CompassBlue);
-        font-family: roboto, sans-serif;
-        font-weight: 400;
         padding: 1vw;
         display: block;
     }
@@ -2501,7 +2499,7 @@ font-weight: 400;
 
     .nav-link::before {
         transition: 300ms;
-        height: 0.5vw;
+        height: 0.2vw;
         content: "";
         position: absolute;
         left: 40%;
@@ -2510,7 +2508,7 @@ font-weight: 400;
 
     #turned-on::before {
         transition: 300ms;
-        height: 0.5vw;
+        height: 0.2vw;
         content: "";
         position: absolute;
         left: 0%;
