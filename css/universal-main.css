@@ -1037,8 +1037,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background: rgb(0, 79, 136);
   color: #fff;
-  transform: scale(1.15);
-  transition: transform 0.75s ease;
 }
 
 .h22 {
@@ -1153,8 +1151,8 @@ video {
 
 .gridContainer {
   display: grid;
-  grid-gap: 3vw;
-  grid-template-columns: repeat(auto-fill, 240px);
+  grid-gap: 2vw;
+  grid-template-columns: repeat(auto-fill, 180px);
   grid-auto-flow: row;
   align-items: end;
   justify-content: center;
@@ -1164,13 +1162,12 @@ video {
 
 .box {
   position: relative;
-  width: 240px;
-  background: rgb(101, 42, 36);
+  width: 180px;
   filter: drop-shadow;
 }
 
 .box img {
-  width: 240px;
+  width: 180px;
   border-radius: 1vw;
 }
 
@@ -2824,7 +2821,6 @@ video {
   .box {
     position: relative;
     width: 240px;
-    background: rgb(101, 42, 36);
     filter: drop-shadow;
   }
   .box img {

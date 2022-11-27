@@ -793,7 +793,7 @@ header {
 .brown-text-area {
     position: absolute;
     top: 227.5vw;
-    background: getColor(theBrown);
+    // background: getColor(theBrown);
     margin: 0;
     padding: 0;
     padding-left: 4vw;
@@ -1313,7 +1313,7 @@ video {
 .box {
     position: relative;
     width: 180px;
-    // background: getColor(theBrown);
+    background: getColor(theBrown);
     filter: drop-shadow;
 }
 
@@ -3250,7 +3250,7 @@ font-weight: 400;
     .box {
         position: relative;
         width: 240px;
-        // background: getColor(theBrown);
+        background: getColor(theBrown);
         filter: drop-shadow;
     }
 

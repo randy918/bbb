@@ -1243,7 +1243,7 @@ h9 {
 
 #horse-area h3 {
     margin-top: 2vw;
-    background-color: getColor(theBrown);
+    // background-color: getColor(theBrown);
     color: getColor(theBackground);
 }
 
@@ -1313,7 +1313,7 @@ video {
 .box {
     position: relative;
     width: 180px;
-    // background: getColor(theBrown);
+    background: getColor(theBrown);
     filter: drop-shadow;
 }
 
@@ -3250,7 +3250,7 @@ font-weight: 400;
     .box {
         position: relative;
         width: 240px;
-        // background: getColor(theBrown);
+        background: getColor(theBrown);
         filter: drop-shadow;
     }
 

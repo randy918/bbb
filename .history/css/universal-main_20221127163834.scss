@@ -1301,8 +1301,8 @@ video {
 
 .gridContainer {
     display: grid;
-    grid-gap: 2vw;
-    grid-template-columns: repeat(auto-fill, 180px);
+    grid-gap: 3vw;
+    grid-template-columns: repeat(auto-fill, 2px);
     grid-auto-flow: row;
     align-items: end;
     justify-content: center;
@@ -1312,13 +1312,13 @@ video {
 
 .box {
     position: relative;
-    width: 180px;
-    // background: getColor(theBrown);
+    width: 2px;
+    background: getColor(theBrown);
     filter: drop-shadow;
 }
 
 .box img {
-    width: 180px;
+    width: 2px;
     border-radius: 1vw;
 }
 
@@ -3250,7 +3250,7 @@ font-weight: 400;
     .box {
         position: relative;
         width: 240px;
-        // background: getColor(theBrown);
+        background: getColor(theBrown);
         filter: drop-shadow;
     }
 

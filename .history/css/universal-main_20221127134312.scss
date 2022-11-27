@@ -1169,8 +1169,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: rgba(0, 79, 136, 1);
     color: #fff;
-    // transform: scale(1.15);
-    // transition: transform 0.75s ease;
+    transform: scale(1.15);
+    transition: transform 0.75s ease;
 }
 
 //!  52520.1446     END OF SUBMIT FORM
@@ -1301,8 +1301,8 @@ video {
 
 .gridContainer {
     display: grid;
-    grid-gap: 2vw;
-    grid-template-columns: repeat(auto-fill, 180px);
+    grid-gap: 3vw;
+    grid-template-columns: repeat(auto-fill, 240px);
     grid-auto-flow: row;
     align-items: end;
     justify-content: center;
@@ -1312,13 +1312,13 @@ video {
 
 .box {
     position: relative;
-    width: 180px;
-    // background: getColor(theBrown);
+    width: 240px;
+    background: getColor(theBrown);
     filter: drop-shadow;
 }
 
 .box img {
-    width: 180px;
+    width: 240px;
     border-radius: 1vw;
 }
 
@@ -3250,7 +3250,7 @@ font-weight: 400;
     .box {
         position: relative;
         width: 240px;
-        // background: getColor(theBrown);
+        background: getColor(theBrown);
         filter: drop-shadow;
     }
 
@@ -3326,10 +3326,10 @@ font-weight: 400;
     }
 
     .box:hover {
-        transform: scale(1.15);
+        // transform: scale(1.15);
         //  filter: brightness(2);
-        transition: transform 0.75s ease;
-        opacity: 1;
+        // transition: transform 0.75s ease;
+        // opacity: 1;
     }
 
     .box222 {
