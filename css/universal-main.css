@@ -195,6 +195,7 @@ h1 {
   font-size: 7vw;
   line-height: 1.1;
   margin-bottom: -2vw;
+  padding-top: 3vw;
   padding-bottom: -1vw;
   padding-left: 6vw;
   padding-right: 4vw;
@@ -2255,7 +2256,7 @@ video {
   }
   .address-strip {
     padding-top: 2vw;
-    margin-bottom: 6vw;
+    margin-bottom: 0vw;
     height: 17.5vw;
     background-color: rgb(188, 166, 142);
     background-size: cover;
