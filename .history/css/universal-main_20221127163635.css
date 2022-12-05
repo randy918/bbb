@@ -252,7 +252,7 @@ h4 {
 }
 
 h5 {
-  color: rgb(51, 66, 87);
+  color: rgb(0, 79, 136);
   font-family: "Roboto Slab", serif;
   font-weight: 100;
   line-height: 1;
@@ -1151,8 +1151,8 @@ video {
 
 .gridContainer {
   display: grid;
-  grid-gap: 2vw;
-  grid-template-columns: repeat(auto-fill, 180px);
+  grid-gap: 3vw;
+  grid-template-columns: repeat(auto-fill, 120px);
   grid-auto-flow: row;
   align-items: end;
   justify-content: center;
@@ -1162,12 +1162,13 @@ video {
 
 .box {
   position: relative;
-  width: 180px;
+  width: 120px;
+  background: rgb(101, 42, 36);
   filter: drop-shadow;
 }
 
 .box img {
-  width: 180px;
+  width: 240px;
   border-radius: 1vw;
 }
 
@@ -1201,7 +1202,7 @@ video {
 
 .explanation {
   font-family: "Roboto Slab";
-  font-size: 0.4em;
+  font-size: 0.55em;
   left: 0;
   line-height: 1.35;
   opacity: 0;
@@ -1236,6 +1237,7 @@ video {
 }
 
 .box:hover {
+  transform: scale(1.15);
   transition: transform 0.75s ease;
   opacity: 1;
 }
@@ -1935,7 +1937,7 @@ video {
     color: rgb(101, 42, 36);
   }
   h5 {
-    color: rgb(51, 66, 87);
+    color: rgb(0, 79, 136);
     font-family: "Roboto Slab", serif;
     font-weight: 100;
     line-height: 1;
@@ -2820,6 +2822,7 @@ video {
   .box {
     position: relative;
     width: 240px;
+    background: rgb(101, 42, 36);
     filter: drop-shadow;
   }
   .box img {
@@ -2882,6 +2885,7 @@ video {
     opacity: 1;
   }
   .box:hover {
+    transform: scale(1.15);
     transition: transform 0.75s ease;
     opacity: 1;
   }
@@ -3322,4 +3326,4 @@ video {
       opacity: 1.4;
     }
   }
-}/*# sourceMappingURL=universal-main.css.map */
+}/*# sourceMappingURL=universal-main_20221127163635.css.map */

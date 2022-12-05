@@ -327,7 +327,7 @@ h4 {
 }
 
 h5 {
-    color: getColor(bbb2-CompassBlue);
+    color: getColor(bitByBitBlue);
     font-family: "Roboto Slab", serif;
     font-weight: 100;
     line-height: 1;
@@ -1352,14 +1352,14 @@ video {
 
 .explanation {
     font-family: "Roboto Slab";
-    font-size: 0.4em;
+    font-size: 0.55em;
     left: 0;
     line-height: 1.35;
     opacity: 0;
     padding-left: 0vw;
     position: absolute;
     top: 0;
-    transition: transform 0.75s ease, opacity 0.75s ease;
+    // transition: transform 0.75s ease, opacity 0.75s ease;
     z-index: 200;
     // text-shadow: 2px 2px #000000;
 }
@@ -1389,7 +1389,7 @@ video {
 }
 
 .box:hover {
-    // transform: scale(1.15);
+    transform: scale(1.15);
     //  filter: brightness(2);
     transition: transform 0.75s ease;
     opacity: 1;
@@ -2149,7 +2149,7 @@ video {
     }
 
     h5 {
-        color: getColor(bbb2-CompassBlue);
+        color: getColor(bitByBitBlue);
         font-family: "Roboto Slab", serif;
         font-weight: 100;
         line-height: 1;
@@ -3326,7 +3326,7 @@ font-weight: 400;
     }
 
     .box:hover {
-        // transform: scale(1.15);
+        transform: scale(1.15);
         //  filter: brightness(2);
         transition: transform 0.75s ease;
         opacity: 1;
