@@ -2805,7 +2805,7 @@ font-weight: 400;
         left: 20vw;
         display: inline-block;
         border-radius: 1vw;
-        background-color: getColor(bbb2-CompassBlue);
+        background-color: getColor(bitByBitBlue);
         border: none;
         width: 30vw;
         color: white;
@@ -3273,7 +3273,7 @@ font-weight: 400;
 
     .white-overcast a {
         position: absolute;
-        z-index: 10;
+        z-index: 100;
         top: 0;
         left: 0;
         opacity: 0;
@@ -3298,7 +3298,7 @@ font-weight: 400;
         position: absolute;
         top: 0;
         transition: transform 0.75s ease, opacity 0.75s ease;
-        z-index: 10;
+        z-index: 200;
         // text-shadow: 2px 2px #000000;
     }
 

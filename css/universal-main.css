@@ -694,7 +694,7 @@ header {
 
 .btn {
   -webkit-transition: 0.3s;
-  background-color: rgb(0, 79, 136);
+  background-color: rgb(51, 66, 87);
   border-radius: 1vw;
   border: none;
   color: white;
@@ -704,7 +704,6 @@ header {
   margin-left: 6vw;
   margin-top: 8vw;
   padding: 10px 10px;
-  position: absolute;
   text-align: center;
   text-decoration: none;
   top: 111.5vw;
@@ -731,13 +730,12 @@ header {
 
 .btnTwo {
   text-decoration: none;
-  position: absolute;
-  font-weight: 0;
+  font-weight: 400;
   top: 111.5vw;
   left: 20vw;
   display: inline-block;
   border-radius: 1vw;
-  background-color: rgb(0, 79, 136);
+  background-color: rgb(51, 66, 87);
   border: none;
   width: 30vw;
   color: white;
@@ -772,12 +770,12 @@ header {
 
 .btn:hover {
   background-color: rgb(143, 57, 56);
-  color: black;
+  color: white;
 }
 
 .btnTwo:hover {
   background-color: rgb(143, 57, 56);
-  color: black;
+  color: white;
 }
 
 .btn--volunteer {
@@ -2405,7 +2403,7 @@ video {
   }
   .btn {
     -webkit-transition: 0.3s;
-    background-color: rgb(143, 57, 56);
+    background-color: rgb(51, 66, 87);
     border-radius: 1vw;
     border: none;
     color: white;
@@ -2415,7 +2413,6 @@ video {
     margin-left: 6vw;
     margin-top: 8vw;
     padding: 10px 10px;
-    position: absolute;
     text-align: center;
     text-decoration: none;
     top: 111.5vw;
@@ -2441,13 +2438,12 @@ video {
   }
   .btnTwo {
     text-decoration: none;
-    position: absolute;
     font-weight: 0;
     top: 111.5vw;
     left: 20vw;
     display: inline-block;
     border-radius: 1vw;
-    background-color: rgb(0, 79, 136);
+    background-color: rgb(51, 66, 87);
     border: none;
     width: 30vw;
     color: white;
@@ -2838,7 +2834,7 @@ video {
   }
   .white-overcast a {
     position: absolute;
-    z-index: 100;
+    z-index: 10;
     top: 0;
     left: 0;
     opacity: 0;
@@ -2861,7 +2857,7 @@ video {
     position: absolute;
     top: 0;
     transition: transform 0.75s ease, opacity 0.75s ease;
-    z-index: 200;
+    z-index: 10;
   }
   #explan1 {
     margin: 15px;
