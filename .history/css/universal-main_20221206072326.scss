@@ -506,7 +506,7 @@ header {
 .navbar {
     display: flex;
     position: relative;
-    z-index: 500;
+    z-index: 50000;
     justify-content: space-between;
     align-items: center;
     background: getColor(bbb2-Basswood);
@@ -3262,7 +3262,7 @@ font-weight: 400;
 
     .bold {
         position: absolute;
-        z-index: 10;
+        z-index: 100;
         margin-top: 1vw;
         padding-left: 1vw;
         left: 0;

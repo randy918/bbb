@@ -2583,7 +2583,7 @@ font-weight: 400;
     .slogan {
         position: absolute;
         animation: slogan__keyframes 8s;
-        z-index: 20;
+        z-index: 2000;
 
         &__image {
             width: 94vw;
@@ -3262,7 +3262,7 @@ font-weight: 400;
 
     .bold {
         position: absolute;
-        z-index: 10;
+        z-index: 100;
         margin-top: 1vw;
         padding-left: 1vw;
         left: 0;

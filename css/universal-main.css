@@ -2828,7 +2828,7 @@ video {
   }
   .bold {
     position: absolute;
-    z-index: 100;
+    z-index: 10;
     margin-top: 1vw;
     padding-left: 1vw;
     left: 0;
